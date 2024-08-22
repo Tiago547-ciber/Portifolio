@@ -1,0 +1,175 @@
+body {
+  background-image: url('./20240820_103213_0000.png');
+  background-size: 250px;
+  
+}
+#titulo{
+  text-align: center;
+  place-content: center;
+  color: black;
+  border-radius: 5px;
+  font-size: 10px;
+  animation: move 5s infinite;
+  margin-left: 8%;
+  margin-right: 10%;
+  margin-top: 300px;
+  position: absolute;
+  z-index: 1;
+  width: 350px;
+  height: 100px;
+  background-color: whitesmoke;
+  background-size: 110px ;
+}
+
+#botao {
+  width: 50px;
+  height: 50px;
+  box-shadow: 1px 1px cornflowerblue;
+  color: black;
+  background-color: white;
+  margin-left: 1px;
+}
+
+h1 {
+  text-align: center;
+}
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#menu {
+  position: fixed;
+  z-index: 2;
+  
+}
+
+#menu2{
+  position: fixed;
+  z-index: 2;
+}
+
+#subtitulo{
+  text-align: justify;
+  color: black;
+  font-size: 20px;
+  margin-top: 100px;
+  border-radius: 5px;
+  z-index: auto;
+  width: 350px;
+  height: 120px;
+  position: absolute;
+  background-color: white;
+  border: solid 2px cornflowerblue;
+  
+}
+
+#eu{
+  text-align: justify;
+  color: black;
+  font-size: 20px;
+  margin-top: 1100px;
+  border-radius: 5px;
+  border: solid 2px cornflowerblue;
+  z-index: auto;
+  width: 350px;
+  height: 700px;
+  position: absolute;
+  background-color: whitesmoke;
+  float: left;
+}
+
+#estudo{
+  text-align: justify;
+  color: black;
+  font-size: 20px;
+  margin-top: 2580px;
+  border-radius: 5px;
+  border: solid 2px cornflowerblue;
+  z-index: auto;
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  background-color: whitesmoke;
+  float: left;
+}
+
+#experiencia{
+  text-align: justify;
+  color: black;
+  font-size: 20px;
+  margin-top: 3700px;
+  border-radius: 5px;
+  border: solid 2px cornflowerblue;
+  z-index: auto;
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  background-color: whitesmoke;
+  float: left;
+}
+
+#footer {
+  margin-top: 4200px;
+  margin-left: 5px;
+  position: absolute;
+  z-index: auto;
+  font-size: 15px;
+  
+}
+@keyframes move{
+  0% {
+    box-shadow: 0px 0px 0px 0px #00FA9A;
+  }
+  
+  33% {
+    box-shadow: 0px 0px 6px 10px #00FA9A;
+  }
+  66% {
+    box-shadow: 0px 0px 0px 0px #00FA9A;
+  }
+  100% {
+    box-shadow: 0px 0px 6px 10px #00FA9A;
+  }
+}
+
+@keyframes move2 {
+  from {
+    width: 0px;
+    height: 35px;
+    background-color: "";
+  }
+  to {
+    width: 420px;
+    height: 35px;
+    background-color: whitesmoke;
+  }
+}
+
+
+@keyframes move3{
+  from {
+    width: 420px;
+    height: 35px;
+    background-color: white;
+  }
+  to {
+    width: 0px;
+    height: 35px;
+    background-color: white;
+    border: none;
+  }
+}
+
+@keyframes move4{
+  from {
+    margin-left: 0px;
+    
+    background-color: whitesmoke;
+  }
+  to {
+    margin-left: 1px;
+    background-color: whitesmoke;
+  }
+}
+
