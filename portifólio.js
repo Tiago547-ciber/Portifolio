@@ -1,6 +1,10 @@
+var arq = document.getElementById('imagem').value;
+var x = arq.split("fakepath", 2);
+imagem.src = '../DCIM/Camera'+x[1];
+
 function inicio() {
     window.scroll({
-      top: 100,
+      top: 60,
       left: 0,
       behavior: "smooth",
     })
@@ -9,7 +13,7 @@ function inicio() {
 
 function sobre() {
     window.scroll({
-      top: 1300,
+      top: 1250,
       left: 0,
       behavior: "smooth",
     })
@@ -17,7 +21,7 @@ function sobre() {
 
 function estudo() {
     window.scroll({
-      top: 2750,
+      top: 2720,
       left: 0,
       behavior: "smooth",
     })
@@ -25,7 +29,15 @@ function estudo() {
 
 function trabalho() {
     window.scroll({
-      top: 3900,
+      top: 3850,
+      left: 0,
+      behavior: "smooth",
+    })
+}
+
+function projetos() {
+    window.scroll({
+      top: 5050,
       left: 0,
       behavior: "smooth",
     })
@@ -34,13 +46,14 @@ function trabalho() {
 function menu2() {
     var a = document.getElementById("botao");
     a.remove();
-    document.getElementById("menu").innerHTML = '<button id="fechar" onclick="fechar()">x</button><button id="inicio" onclick="inicio()">Inicio</button><button id="sobre" onclick="sobre()">Sobre mim</button><button id="formacao" onclick="estudo()">Formação</button><button id="xp" onclick="trabalho()">Experiência</button>';
+    document.getElementById("menu").innerHTML = '<button id="fechar" onclick="fechar()">x</button><button id="inicio" onclick="inicio()">Inicio</button><button id="sobre" onclick="sobre()">Sobre mim</button><button id="formacao" onclick="estudo()">Formação</button><button id="xp" onclick="trabalho()">Experiência</button><button id="PROJETOS" onclick="projetos()">Projetos</button>';
     var body2 = document.getElementById('menu2');
     var fechar = document.getElementById("fechar");
     var inicio = document.getElementById("inicio");
     var eu = document.getElementById("sobre");
     var formacao = document.getElementById("formacao");
     var xp = document.getElementById("xp");
+    var projetos = document.getElementById("PROJETOS");
     
     body2.style.width = '300px';
     body2.style.marginTop = '50px';
@@ -100,11 +113,22 @@ function menu2() {
     xp.style.borderTop = 'none';
     xp.style.borderLeft = 'solid 2px cornflowerblue';
     xp.style.borderRight = 'solid 2px cornflowerblue';
-    xp.style.borderBottom = 'solid 2px cornflowerblue';
+    xp.style.borderBottom = 'none';
     xp.style.display = 'block';
     xp.style.backgroundColor = 'whitesmoke';
     xp.style.animation = 'move2 1s';
     xp.style.fontSize = '25px';
+  
+   projetos.style.width = '420px';
+   projetos.style.height = '35px';
+   projetos.style.borderTop = 'none';
+   projetos.style.borderLeft = 'solid 2px cornflowerblue';
+   projetos.style.borderRight = 'solid 2px cornflowerblue';
+   projetos.style.borderBottom = 'solid 2px cornflowerblue';
+   projetos.style.display = 'block';
+   projetos.style.backgroundColor = 'whitesmoke';
+   projetos.style.animation = 'move2 1s';
+   projetos.style.fontSize = '25px';
     
 }
 
@@ -115,16 +139,19 @@ function fechar() {
     var eu = document.getElementById("sobre");
     var formacao = document.getElementById("formacao");
     var xp = document.getElementById("xp");
+    var projetos = document.getElementById("PROJETOS");
     fechar.style.animation = 'move3 1s';
     inicio.style.animation = 'move3 1s';
     eu.style.animation = 'move3 1s';
     formacao.style.animation = 'move3 1s';
     xp.style.animation = 'move3 1s';
+    projetos.style.animation = 'move3 1s';
     fechar.innerText = '.';
     inicio.innerText = '';
     eu.innerText = '';
     formacao.innerText = '';
     xp.innerText = '';
+    projetos.innerText = '';
     setTimeout(function() {
         document.getElementById("menu").innerHTML = '<button id="botao" onclick="menu2()">MENU</button>';
         var botao = document.getElementById("botao");

@@ -12,7 +12,7 @@ body {
   animation: move 5s infinite;
   margin-left: 8%;
   margin-right: 10%;
-  margin-top: 300px;
+  margin-top: 290px;
   position: absolute;
   z-index: 1;
   width: 350px;
@@ -36,6 +36,15 @@ h1 {
 p{
   margin-left: 10px;
   margin-right: 10px;
+}
+
+img {width: 330px;
+  height: 350px;
+  border: solid 1px black;
+}
+legend {
+  font-size: 15px;
+  text-align: center;
 }
 
 #menu {
@@ -109,13 +118,36 @@ p{
   float: left;
 }
 
+#projetos{
+  text-align: justify;
+  color: black;
+  font-size: 20px;
+  margin-top: 4900px;
+  border-radius: 5px;
+  border: solid 2px cornflowerblue;
+  z-index: auto;
+  width: 350px;
+  height: 1800px;
+  position: absolute;
+  background-color: whitesmoke;
+  float: left;
+}
+
 #footer {
-  margin-top: 4200px;
+  margin-top: 6700px;
   margin-left: 5px;
   position: absolute;
   z-index: auto;
   font-size: 15px;
   
+}
+
+h2{
+  text-align: center;
+}
+#divisoria {
+  border: solid 2px black;
+  width: 320px;
 }
 @keyframes move{
   0% {
