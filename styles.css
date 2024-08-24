@@ -152,17 +152,7 @@ h2{
 
 
 
-@keyframes move4{
-  from {
-    margin-left: 0px;
-    
-    background-color: whitesmoke;
-  }
-  to {
-    margin-left: 1px;
-    background-color: whitesmoke;
-  }
-}
+
 
     @keyframes move{
   0% {
