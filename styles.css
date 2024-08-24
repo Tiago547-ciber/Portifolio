@@ -237,7 +237,7 @@ h2{
 }
 
 
-@media (min-width: 900px) {
+@media (min-width: 720px) {
     body {
             background-size: 900px;
   
