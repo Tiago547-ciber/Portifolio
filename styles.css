@@ -396,7 +396,7 @@ h2{
     background-color: "";
   }
   to {
-    width: 1570px;
+    width: 1070px;
     height: 35px;
     background-color: whitesmoke;
   }
@@ -433,7 +433,7 @@ h2{
 
     @keyframes move5{
   from {
-    width: 1570px;
+    width: 1070px;
     height: 35px;
     background-color: white;
   }

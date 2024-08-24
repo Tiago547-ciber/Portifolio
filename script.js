@@ -53,13 +53,13 @@ function menu2() {
     var xp = document.getElementById("xp");
     var projetos = document.getElementById("PROJETOS");
     var tela = window.innerWidth;
-    tamanho = 900;
+    tamanho = 768;
     body2.style.width = '300px';
     body2.style.marginTop = '50px';
     body2.style.backgroundColor = 'whitesmoke';
         
-   if (tela.value <= tamanho.value) {
-        fechar.style.width = tela;
+   if (tela <= tamanho) {
+        fechar.style.width = 420;
         fechar.style.height = '35px';
         fechar.style.textAlign = 'justify';
         fechar.style.borderTop = 'solid 2px cornflowerblue';
@@ -71,7 +71,7 @@ function menu2() {
         fechar.style.fontSize = '25px';
     
     
-        inicio.style.width = tela;
+        inicio.style.width = '420px';
         inicio.style.height = '35px';
         inicio.style.borderTop = 'none';
         inicio.style.borderLeft = 'solid 2px cornflowerblue';
@@ -83,7 +83,7 @@ function menu2() {
         inicio.style.fontSize = '25px';
     
     
-        eu.style.width = tela;
+        eu.style.width = '420px';
         eu.style.height = '35px';
         eu.style.animation = 'move2 1s';
         eu.style.backgroundColor = 'whitesmoke';
@@ -95,7 +95,7 @@ function menu2() {
         eu.style.fontSize = '25px';
     
     
-        formacao.style.width = tela;
+        formacao.style.width = '420px';
         formacao.style.height = '35px';
         formacao.style.borderTop = 'none';
         formacao.style.borderLeft = 'solid 2px cornflowerblue';
@@ -107,7 +107,7 @@ function menu2() {
         formacao.style.fontSize = '25px';
         
     
-        xp.style.width = tela;
+        xp.style.width = '420px';
         xp.style.height = '35px';
         xp.style.borderTop = 'none';
         xp.style.borderLeft = 'solid 2px cornflowerblue';
@@ -118,7 +118,7 @@ function menu2() {
         xp.style.animation = 'move2 1s';
         xp.style.fontSize = '25px';
   
-        projetos.style.width = tela;
+        projetos.style.width = '420px';
         projetos.style.height = '35px';
         projetos.style.borderTop = 'none';
         projetos.style.borderLeft = 'solid 2px cornflowerblue';
@@ -130,7 +130,7 @@ function menu2() {
         projetos.style.fontSize = '25px';
       }
    else {
-        fechar.style.width = tela;
+        fechar.style.width = '1070px';
         fechar.style.height = '35px';
         fechar.style.textAlign = 'justify';
         fechar.style.borderTop = 'solid 2px cornflowerblue';
@@ -142,7 +142,7 @@ function menu2() {
         fechar.style.fontSize = '25px';
     
     
-        inicio.style.width = tela;
+        inicio.style.width = '1070px';
         inicio.style.height = '35px';
         inicio.style.borderTop = 'none';
         inicio.style.borderLeft = 'solid 2px cornflowerblue';
@@ -154,7 +154,7 @@ function menu2() {
         inicio.style.fontSize = '25px';
     
     
-        eu.style.width = tela;
+        eu.style.width = '1070px';
         eu.style.height = '35px';
         eu.style.animation = 'move2 1s';
         eu.style.backgroundColor = 'whitesmoke';
@@ -166,7 +166,7 @@ function menu2() {
         eu.style.fontSize = '25px';
     
     
-        formacao.style.width = tela;
+        formacao.style.width = '1070px';
         formacao.style.height = '35px';
         formacao.style.borderTop = 'none';
         formacao.style.borderLeft = 'solid 2px cornflowerblue';
@@ -178,7 +178,7 @@ function menu2() {
         formacao.style.fontSize = '25px';
         
     
-        xp.style.width = tela;
+        xp.style.width = '1070px';
         xp.style.height = '35px';
         xp.style.borderTop = 'none';
         xp.style.borderLeft = 'solid 2px cornflowerblue';
@@ -189,7 +189,7 @@ function menu2() {
         xp.style.animation = 'move2 1s';
         xp.style.fontSize = '25px';
   
-        projetos.style.width = tela;
+        projetos.style.width = '1070px';
         projetos.style.height = '35px';
         projetos.style.borderTop = 'none';
         projetos.style.borderLeft = 'solid 2px cornflowerblue';
@@ -214,7 +214,7 @@ function fechar() {
     var tela = window.innerWidth;
     tamanho = 768;
 
-   if (tela.value != tamanho.value) {
+   if (tela <= tamanho) {
         fechar.style.animation = 'move3 1s';
         inicio.style.animation = 'move3 1s';
         eu.style.animation = 'move3 1s';
