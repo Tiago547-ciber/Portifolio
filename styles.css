@@ -149,12 +149,7 @@ h2{
   border: solid 2px black;
   width: 320px;
 }
-
-
-
-
-
-    @keyframes move{
+@keyframes move{
   0% {
     box-shadow: 0px 0px 0px 0px #00FA9A;
   }
@@ -169,6 +164,7 @@ h2{
     box-shadow: 0px 0px 6px 10px #00FA9A;
   }
 }
+
 @keyframes move2 {
   from {
     width: 0px;
@@ -196,35 +192,8 @@ h2{
     border: none;
   }
 }
-  @keyframes move5 {
-    from {
-    width: 0px;
-    height: 35px;
-    background-color: "";
-  }
-  to {
-    width: 1070px;
-    height: 35px;
-    background-color: whitesmoke;
-  }
-}
 
-
-@keyframes move6{
-  from {
-    width: 1070px;
-    height: 35px;
-    background-color: whitesmoke;
-  }
-  to {
-    width: 0px;
-    height: 35px;
-    background-color: whitesmoke;
-    border: none;
-  }
-
-}
-    @keyframes move4{
+@keyframes move4{
   from {
     margin-left: 0px;
     
@@ -236,8 +205,21 @@ h2{
   }
 }
 
+  @keyframes move5{
+  from {
+    width: 1570px;
+    height: 35px;
+    background-color: white;
+  }
+  to {
+    width: 0px;
+    height: 35px;
+    background-color: white;
+    border: none;
+  }
+}
 
-@media only screen and (min-width: 720px) {
+@media (min-width: 900px) {
     body {
             background-size: 900px;
   
@@ -249,12 +231,12 @@ h2{
              border-radius: 5px;
              font-size: 20px;
              animation: move 5s infinite;
-             margin-left: 5%;
+             margin-left: 20%;
              margin-right: 10%;
              margin-top: 230px;
              position: absolute;
              z-index: 1;
-             width: 900px;
+             width: 950px;
              height: 200px;
              background-color: whitesmoke;
              background-size: 110px;
@@ -303,7 +285,7 @@ h2{
                place-content: center;
                color: black;
                font-size: 20px;
-               margin-left: 70px;
+               margin-left: 100px;
                border-radius: 5px;
                z-index: auto;
                width: 750px;
@@ -322,7 +304,7 @@ h2{
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
-               width: 900px;
+               width: 950px;
                height: 400px;
                position: absolute;
                background-color: whitesmoke;
@@ -338,7 +320,7 @@ h2{
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
-               width: 900px;
+               width: 950px;
                height: 450px;
                position: absolute;
                background-color: whitesmoke;
@@ -354,7 +336,7 @@ h2{
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
-               width: 900px;
+               width: 950px;
                height: 450px;
                position: absolute;
                background-color: whitesmoke;
@@ -369,7 +351,7 @@ h2{
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
-               width: 900px;
+               width: 950px;
                height: 1800px;
                position: absolute;
                background-color: whitesmoke;
@@ -378,7 +360,7 @@ h2{
 
     #footer {
                margin-top: 6700px;
-               margin-left: 200px;
+               margin-left: 250px;
                position: absolute;
                z-index: auto;
                font-size: 20px;
@@ -392,8 +374,75 @@ h2{
   border: solid 2px black;
   width: 920px;
 }
+    @keyframes move{
+  0% {
+    box-shadow: 0px 0px 0px 0px #00FA9A;
+  }
+  
+  33% {
+    box-shadow: 0px 0px 6px 10px #00FA9A;
+  }
+  66% {
+    box-shadow: 0px 0px 0px 0px #00FA9A;
+  }
+  100% {
+    box-shadow: 0px 0px 6px 10px #00FA9A;
+  }
+}
+@keyframes move2 {
+  from {
+    width: 0px;
+    height: 35px;
+    background-color: "";
+  }
+  to {
+    width: 1570px;
+    height: 35px;
+    background-color: whitesmoke;
+  }
+}
+
+
+@keyframes move3{
+  from {
+    width: 420px;
+    height: 35px;
+    background-color: white;
+  }
+  to {
+    width: 0px;
+    height: 35px;
+    background-color: white;
+    border: none;
+  }
+
+
+    @keyframes move4{
+  from {
+    margin-left: 0px;
+    
+    background-color: whitesmoke;
+  }
+  to {
+    margin-left: 1px;
+    background-color: whitesmoke;
+  }
+}
 
 
 
+    @keyframes move5{
+  from {
+    width: 1570px;
+    height: 35px;
+    background-color: white;
+  }
+  to {
+    width: 0px;
+    height: 35px;
+    background-color: white;
+    border: none;
+  }
+}
 
 }
