@@ -207,12 +207,27 @@ h2{
 
   @keyframes move5{
   from {
-    width: 1570px;
+    width: 450px;
     height: 35px;
     background-color: white;
   }
   to {
     width: 0px;
+    height: 35px;
+    background-color: white;
+    border: none;
+  }
+}
+
+
+@keyframes move6{
+  from {
+    width: 0px;
+    height: 35px;
+    background-color: white;
+  }
+  to {
+    width: 450px;
     height: 35px;
     background-color: white;
     border: none;
@@ -396,7 +411,7 @@ h2{
     background-color: "";
   }
   to {
-    width: 1070px;
+    width: 400px;
     height: 35px;
     background-color: whitesmoke;
   }
@@ -415,7 +430,7 @@ h2{
     background-color: white;
     border: none;
   }
-
+}
 
     @keyframes move4{
   from {
@@ -433,7 +448,7 @@ h2{
 
     @keyframes move5{
   from {
-    width: 1070px;
+    width: 400px;
     height: 35px;
     background-color: white;
   }
@@ -444,5 +459,20 @@ h2{
     border: none;
   }
 }
+  
+  
+  @keyframes move6{
+    from {
+      width: 0px;
+      height: 35px;
+      background-color: white;
+    }
+    to {
+      width: 1000px;
+      height: 35px;
+      background-color: white;
+      border: none;
+    }
+  }
 
 }
