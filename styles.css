@@ -246,7 +246,7 @@ h2{
              border-radius: 5px;
              font-size: 20px;
              animation: move 5s infinite;
-             margin-left: 20%;
+             margin-left: 28%;
              margin-right: 10%;
              margin-top: 230px;
              position: absolute;
@@ -387,7 +387,7 @@ h2{
 }
     #divisoria {
   border: solid 2px black;
-  width: 920px;
+  width: 870px;
 }
     @keyframes move{
   0% {
