@@ -53,12 +53,12 @@ function menu2() {
     var xp = document.getElementById("xp");
     var projetos = document.getElementById("PROJETOS");
     var tela = window.innerWidth;
-    var tamanho = 900;
+    tamanho = 768;
     body2.style.width = '300px';
     body2.style.marginTop = '50px';
     body2.style.backgroundColor = 'whitesmoke';
         
-   if (tela <= tamanho) {
+   if (tela.value != tamanho.value) {
         fechar.style.width = '420px';
         fechar.style.height = '35px';
         fechar.style.textAlign = 'justify';
@@ -138,11 +138,11 @@ function menu2() {
         fechar.style.borderRight = 'solid 2px cornflowerblue';
         fechar.style.borderBottom = 'none';
         fechar.style.backgroundColor = 'whitesmoke';
-        fechar.style.animation = 'move5 1s';
+        fechar.style.animation = 'move2 1s';
         fechar.style.fontSize = '25px';
     
     
-        inicio.style.width = '1070px';
+        inicio.style.width = '1570px';
         inicio.style.height = '35px';
         inicio.style.borderTop = 'none';
         inicio.style.borderLeft = 'solid 2px cornflowerblue';
@@ -150,13 +150,13 @@ function menu2() {
         inicio.style.borderBottom = 'none';
         inicio.style.display = 'block';
         inicio.style.backgroundColor = 'whitesmoke';
-        inicio.style.animation = 'move5 1s';
+        inicio.style.animation = 'move2 1s';
         inicio.style.fontSize = '25px';
     
     
-        eu.style.width = '1070px';
+        eu.style.width = '1570px';
         eu.style.height = '35px';
-        eu.style.animation = 'move5 1s';
+        eu.style.animation = 'move2 1s';
         eu.style.backgroundColor = 'whitesmoke';
         eu.style.borderTop = 'none';
         eu.style.borderLeft = 'solid 2px cornflowerblue';
@@ -166,7 +166,7 @@ function menu2() {
         eu.style.fontSize = '25px';
     
     
-        formacao.style.width = '1070px';
+        formacao.style.width = '1570px';
         formacao.style.height = '35px';
         formacao.style.borderTop = 'none';
         formacao.style.borderLeft = 'solid 2px cornflowerblue';
@@ -174,11 +174,11 @@ function menu2() {
         formacao.style.borderBottom = 'none';
         formacao.style.display = 'block';
         formacao.style.backgroundColor = 'whitesmoke';
-        formacao.style.animation = 'move5 1s';
+        formacao.style.animation = 'move2 1s';
         formacao.style.fontSize = '25px';
         
     
-        xp.style.width = '1070px';
+        xp.style.width = '1570px';
         xp.style.height = '35px';
         xp.style.borderTop = 'none';
         xp.style.borderLeft = 'solid 2px cornflowerblue';
@@ -186,10 +186,10 @@ function menu2() {
         xp.style.borderBottom = 'none';
         xp.style.display = 'block';
         xp.style.backgroundColor = 'whitesmoke';
-        xp.style.animation = 'move5 1s';
+        xp.style.animation = 'move2 1s';
         xp.style.fontSize = '25px';
   
-        projetos.style.width = '1070px';
+        projetos.style.width = '1570px';
         projetos.style.height = '35px';
         projetos.style.borderTop = 'none';
         projetos.style.borderLeft = 'solid 2px cornflowerblue';
@@ -197,7 +197,7 @@ function menu2() {
         projetos.style.borderBottom = 'solid 2px cornflowerblue';
         projetos.style.display = 'block';
         projetos.style.backgroundColor = 'whitesmoke';
-        projetos.style.animation = 'move5 1s';
+        projetos.style.animation = 'move2 1s';
         projetos.style.fontSize = '25px'; 
         }
  
@@ -212,9 +212,9 @@ function fechar() {
     var xp = document.getElementById("xp");
     var projetos = document.getElementById("PROJETOS");
     var tela = window.innerWidth;
-    var tamanho = 900;
+    tamanho = 768;
 
-   if (tela <= tamanho) {
+   if (tela.value != tamanho.value) {
         fechar.style.animation = 'move3 1s';
         inicio.style.animation = 'move3 1s';
         eu.style.animation = 'move3 1s';
@@ -227,14 +227,14 @@ function fechar() {
         formacao.innerText = '';
         xp.innerText = '';
         projetos.innerText = '';        
-        }
+      }
    else {
-        fechar.style.animation = 'move6 1s';
-        inicio.style.animation = 'move6 1s';
-        eu.style.animation = 'move6 1s';
-        formacao.style.animation = 'move6 1s';
-        xp.style.animation = 'move6 1s';
-        projetos.style.animation = 'move6 1s';
+        fechar.style.animation = 'move5 1s';
+        inicio.style.animation = 'move5 1s';
+        eu.style.animation = 'move5 1s';
+        formacao.style.animation = 'move5 1s';
+        xp.style.animation = 'move5 1s';
+        projetos.style.animation = 'move5 1s';
         fechar.innerText = '.';
         inicio.innerText = '';
         eu.innerText = '';
