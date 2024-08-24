@@ -53,7 +53,7 @@ function menu2() {
     var xp = document.getElementById("xp");
     var projetos = document.getElementById("PROJETOS");
     var tela = window.innerWidth;
-    var tamanho = 900;
+    var tamanho = 720;
     body2.style.width = '300px';
     body2.style.marginTop = '50px';
     body2.style.backgroundColor = 'whitesmoke';
@@ -212,7 +212,7 @@ function fechar() {
     var xp = document.getElementById("xp");
     var projetos = document.getElementById("PROJETOS");
     var tela = window.innerWidth;
-    var tamanho = 768;
+    var tamanho = 720;
 
    if (tela <= tamanho) {
         fechar.style.animation = 'move3 1s';
