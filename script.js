@@ -1,6 +1,4 @@
-var arq = document.getElementById('imagem').value;
-var x = arq.split("fakepath", 2);
-imagem.src = '../DCIM/Camera'+x[1];
+
 
 function inicio() {
     window.scroll({
@@ -54,82 +52,155 @@ function menu2() {
     var formacao = document.getElementById("formacao");
     var xp = document.getElementById("xp");
     var projetos = document.getElementById("PROJETOS");
-    
+    var tela = window.innerWidth;
+    var tamanho = 900;
     body2.style.width = '300px';
     body2.style.marginTop = '50px';
     body2.style.backgroundColor = 'whitesmoke';
         
-    
-    fechar.style.width = '420px';
-    fechar.style.height = '35px';
-    fechar.style.textAlign = 'justify';
-    fechar.style.borderTop = 'solid 2px cornflowerblue';
-    fechar.style.borderLeft = 'solid 2px cornflowerblue';
-    fechar.style.borderRight = 'solid 2px cornflowerblue';
-    fechar.style.borderBottom = 'none';
-    fechar.style.backgroundColor = 'whitesmoke';
-    fechar.style.animation = 'move2 1s';
-    fechar.style.fontSize = '25px';
-    
-    
-    inicio.style.width = '420px';
-    inicio.style.height = '35px';
-    inicio.style.borderTop = 'none';
-    inicio.style.borderLeft = 'solid 2px cornflowerblue';
-    inicio.style.borderRight = 'solid 2px cornflowerblue';
-    inicio.style.borderBottom = 'none';
-    inicio.style.display = 'block';
-    inicio.style.backgroundColor = 'whitesmoke';
-    inicio.style.animation = 'move2 1s';
-    inicio.style.fontSize = '25px';
+   if (tela <= tamanho) {
+        fechar.style.width = '420px';
+        fechar.style.height = '35px';
+        fechar.style.textAlign = 'justify';
+        fechar.style.borderTop = 'solid 2px cornflowerblue';
+        fechar.style.borderLeft = 'solid 2px cornflowerblue';
+        fechar.style.borderRight = 'solid 2px cornflowerblue';
+        fechar.style.borderBottom = 'none';
+        fechar.style.backgroundColor = 'whitesmoke';
+        fechar.style.animation = 'move2 1s';
+        fechar.style.fontSize = '25px';
     
     
-    eu.style.width = '420px';
-    eu.style.height = '35px';
-    eu.style.animation = 'move2 1s';
-    eu.style.backgroundColor = 'whitesmoke';
-    eu.style.borderTop = 'none';
-    eu.style.borderLeft = 'solid 2px cornflowerblue';
-    eu.style.borderRight = 'solid 2px cornflowerblue';
-    eu.style.borderBottom = 'none';
-    eu.style.display = 'block';
-    eu.style.fontSize = '25px';
+        inicio.style.width = '420px';
+        inicio.style.height = '35px';
+        inicio.style.borderTop = 'none';
+        inicio.style.borderLeft = 'solid 2px cornflowerblue';
+        inicio.style.borderRight = 'solid 2px cornflowerblue';
+        inicio.style.borderBottom = 'none';
+        inicio.style.display = 'block';
+        inicio.style.backgroundColor = 'whitesmoke';
+        inicio.style.animation = 'move2 1s';
+        inicio.style.fontSize = '25px';
     
     
-    formacao.style.width = '420px';
-    formacao.style.height = '35px';
-    formacao.style.borderTop = 'none';
-    formacao.style.borderLeft = 'solid 2px cornflowerblue';
-    formacao.style.borderRight = 'solid 2px cornflowerblue';
-    formacao.style.borderBottom = 'none';
-    formacao.style.display = 'block';
-    formacao.style.backgroundColor = 'whitesmoke';
-    formacao.style.animation = 'move2 1s';
-    formacao.style.fontSize = '25px';
+        eu.style.width = '420px';
+        eu.style.height = '35px';
+        eu.style.animation = 'move2 1s';
+        eu.style.backgroundColor = 'whitesmoke';
+        eu.style.borderTop = 'none';
+        eu.style.borderLeft = 'solid 2px cornflowerblue';
+        eu.style.borderRight = 'solid 2px cornflowerblue';
+        eu.style.borderBottom = 'none';
+        eu.style.display = 'block';
+        eu.style.fontSize = '25px';
+    
+    
+        formacao.style.width = '420px';
+        formacao.style.height = '35px';
+        formacao.style.borderTop = 'none';
+        formacao.style.borderLeft = 'solid 2px cornflowerblue';
+        formacao.style.borderRight = 'solid 2px cornflowerblue';
+        formacao.style.borderBottom = 'none';
+        formacao.style.display = 'block';
+        formacao.style.backgroundColor = 'whitesmoke';
+        formacao.style.animation = 'move2 1s';
+        formacao.style.fontSize = '25px';
         
     
-    xp.style.width = '420px';
-    xp.style.height = '35px';
-    xp.style.borderTop = 'none';
-    xp.style.borderLeft = 'solid 2px cornflowerblue';
-    xp.style.borderRight = 'solid 2px cornflowerblue';
-    xp.style.borderBottom = 'none';
-    xp.style.display = 'block';
-    xp.style.backgroundColor = 'whitesmoke';
-    xp.style.animation = 'move2 1s';
-    xp.style.fontSize = '25px';
+        xp.style.width = '420px';
+        xp.style.height = '35px';
+        xp.style.borderTop = 'none';
+        xp.style.borderLeft = 'solid 2px cornflowerblue';
+        xp.style.borderRight = 'solid 2px cornflowerblue';
+        xp.style.borderBottom = 'none';
+        xp.style.display = 'block';
+        xp.style.backgroundColor = 'whitesmoke';
+        xp.style.animation = 'move2 1s';
+        xp.style.fontSize = '25px';
   
-   projetos.style.width = '420px';
-   projetos.style.height = '35px';
-   projetos.style.borderTop = 'none';
-   projetos.style.borderLeft = 'solid 2px cornflowerblue';
-   projetos.style.borderRight = 'solid 2px cornflowerblue';
-   projetos.style.borderBottom = 'solid 2px cornflowerblue';
-   projetos.style.display = 'block';
-   projetos.style.backgroundColor = 'whitesmoke';
-   projetos.style.animation = 'move2 1s';
-   projetos.style.fontSize = '25px';
+        projetos.style.width = '420px';
+        projetos.style.height = '35px';
+        projetos.style.borderTop = 'none';
+        projetos.style.borderLeft = 'solid 2px cornflowerblue';
+        projetos.style.borderRight = 'solid 2px cornflowerblue';
+        projetos.style.borderBottom = 'solid 2px cornflowerblue';
+        projetos.style.display = 'block';
+        projetos.style.backgroundColor = 'whitesmoke';
+        projetos.style.animation = 'move2 1s';
+        projetos.style.fontSize = '25px';
+      }
+   else {
+        fechar.style.width = '1570px';
+        fechar.style.height = '35px';
+        fechar.style.textAlign = 'justify';
+        fechar.style.borderTop = 'solid 2px cornflowerblue';
+        fechar.style.borderLeft = 'solid 2px cornflowerblue';
+        fechar.style.borderRight = 'solid 2px cornflowerblue';
+        fechar.style.borderBottom = 'none';
+        fechar.style.backgroundColor = 'whitesmoke';
+        fechar.style.animation = 'move5 1s';
+        fechar.style.fontSize = '25px';
     
+    
+        inicio.style.width = '1570px';
+        inicio.style.height = '35px';
+        inicio.style.borderTop = 'none';
+        inicio.style.borderLeft = 'solid 2px cornflowerblue';
+        inicio.style.borderRight = 'solid 2px cornflowerblue';
+        inicio.style.borderBottom = 'none';
+        inicio.style.display = 'block';
+        inicio.style.backgroundColor = 'whitesmoke';
+        inicio.style.animation = 'move5 1s';
+        inicio.style.fontSize = '25px';
+    
+    
+        eu.style.width = '1570px';
+        eu.style.height = '35px';
+        eu.style.animation = 'move5 1s';
+        eu.style.backgroundColor = 'whitesmoke';
+        eu.style.borderTop = 'none';
+        eu.style.borderLeft = 'solid 2px cornflowerblue';
+        eu.style.borderRight = 'solid 2px cornflowerblue';
+        eu.style.borderBottom = 'none';
+        eu.style.display = 'block';
+        eu.style.fontSize = '25px';
+    
+    
+        formacao.style.width = '1570px';
+        formacao.style.height = '35px';
+        formacao.style.borderTop = 'none';
+        formacao.style.borderLeft = 'solid 2px cornflowerblue';
+        formacao.style.borderRight = 'solid 2px cornflowerblue';
+        formacao.style.borderBottom = 'none';
+        formacao.style.display = 'block';
+        formacao.style.backgroundColor = 'whitesmoke';
+        formacao.style.animation = 'move5 1s';
+        formacao.style.fontSize = '25px';
+        
+    
+        xp.style.width = '1570px';
+        xp.style.height = '35px';
+        xp.style.borderTop = 'none';
+        xp.style.borderLeft = 'solid 2px cornflowerblue';
+        xp.style.borderRight = 'solid 2px cornflowerblue';
+        xp.style.borderBottom = 'none';
+        xp.style.display = 'block';
+        xp.style.backgroundColor = 'whitesmoke';
+        xp.style.animation = 'move5 1s';
+        xp.style.fontSize = '25px';
+  
+        projetos.style.width = '1570px';
+        projetos.style.height = '35px';
+        projetos.style.borderTop = 'none';
+        projetos.style.borderLeft = 'solid 2px cornflowerblue';
+        projetos.style.borderRight = 'solid 2px cornflowerblue';
+        projetos.style.borderBottom = 'solid 2px cornflowerblue';
+        projetos.style.display = 'block';
+        projetos.style.backgroundColor = 'whitesmoke';
+        projetos.style.animation = 'move5 1s';
+        projetos.style.fontSize = '25px'; 
+        }
+ 
 }
 
 function fechar() {
@@ -140,18 +211,38 @@ function fechar() {
     var formacao = document.getElementById("formacao");
     var xp = document.getElementById("xp");
     var projetos = document.getElementById("PROJETOS");
-    fechar.style.animation = 'move3 1s';
-    inicio.style.animation = 'move3 1s';
-    eu.style.animation = 'move3 1s';
-    formacao.style.animation = 'move3 1s';
-    xp.style.animation = 'move3 1s';
-    projetos.style.animation = 'move3 1s';
-    fechar.innerText = '.';
-    inicio.innerText = '';
-    eu.innerText = '';
-    formacao.innerText = '';
-    xp.innerText = '';
-    projetos.innerText = '';
+    var tela = window.innerWidth;
+    var tamanho = 768;
+
+   if (tela <= tamanho) {
+        fechar.style.animation = 'move3 1s';
+        inicio.style.animation = 'move3 1s';
+        eu.style.animation = 'move3 1s';
+        formacao.style.animation = 'move3 1s';
+        xp.style.animation = 'move3 1s';
+        projetos.style.animation = 'move3 1s';
+        fechar.innerText = '.';
+        inicio.innerText = '';
+        eu.innerText = '';
+        formacao.innerText = '';
+        xp.innerText = '';
+        projetos.innerText = '';        
+        }
+   else {
+        fechar.style.animation = 'move6 1s';
+        inicio.style.animation = 'move6 1s';
+        eu.style.animation = 'move6 1s';
+        formacao.style.animation = 'move6 1s';
+        xp.style.animation = 'move6 1s';
+        projetos.style.animation = 'move6 1s';
+        fechar.innerText = '.';
+        inicio.innerText = '';
+        eu.innerText = '';
+        formacao.innerText = '';
+        xp.innerText = '';
+        projetos.innerText = '';   
+        }
+ 
     setTimeout(function() {
         document.getElementById("menu").innerHTML = '<button id="botao" onclick="menu2()">MENU</button>';
         var botao = document.getElementById("botao");

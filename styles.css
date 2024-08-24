@@ -149,7 +149,22 @@ h2{
   border: solid 2px black;
   width: 320px;
 }
-@keyframes move{
+
+
+
+@keyframes move4{
+  from {
+    margin-left: 0px;
+    
+    background-color: whitesmoke;
+  }
+  to {
+    margin-left: 1px;
+    background-color: whitesmoke;
+  }
+}
+
+    @keyframes move{
   0% {
     box-shadow: 0px 0px 0px 0px #00FA9A;
   }
@@ -164,7 +179,6 @@ h2{
     box-shadow: 0px 0px 6px 10px #00FA9A;
   }
 }
-
 @keyframes move2 {
   from {
     width: 0px;
@@ -191,9 +205,36 @@ h2{
     background-color: white;
     border: none;
   }
+  
+@keyframes move5 {
+  from {
+    width: 0px;
+    height: 35px;
+    background-color: "";
+  }
+  to {
+    width: 1570px;
+    height: 35px;
+    background-color: whitesmoke;
+  }
 }
 
-@keyframes move4{
+
+@keyframes move6{
+  from {
+    width: 1570px;
+    height: 35px;
+    background-color: whitesmoke;
+  }
+  to {
+    width: 0px;
+    height: 35px;
+    background-color: whitesmoke;
+    border: none;
+  }
+
+
+    @keyframes move4{
   from {
     margin-left: 0px;
     
@@ -205,3 +246,164 @@ h2{
   }
 }
 
+
+@media (min-width: 900px) {
+    body {
+            background-size: 900px;
+  
+    }   
+    #titulo{
+             text-align: center;
+             place-content: center;
+             color: black;
+             border-radius: 5px;
+             font-size: 20px;
+             animation: move 5s infinite;
+             margin-left: 20%;
+             margin-right: 10%;
+             margin-top: 230px;
+             position: absolute;
+             z-index: 1;
+             width: 950px;
+             height: 200px;
+             background-color: whitesmoke;
+             background-size: 110px;
+           }
+    #botao {
+               width: 50px;
+               height: 50px;
+               box-shadow: 1px 1px cornflowerblue;
+               color: black;
+               background-color: white;
+               margin-left: 1px;
+               border-radius: 5px;
+             }
+
+    h1 {
+               text-align: center;
+             }
+    p{
+               margin-left: 10px;
+               margin-right: 10px;
+             }
+
+    img {      width: 430px;
+               height: 350px;
+               border: solid 1px black;
+               margin-left: 250px;
+             }
+    legend {
+               font-size: 15px;
+               text-align: center;
+             }
+
+    #menu {
+               position: fixed;
+               z-index: 2;
+  
+             }
+
+    #menu2{
+               position: fixed;
+               z-index: 2;
+             }
+
+    #subtitulo{
+               text-align: center;
+               place-content: center;
+               color: black;
+               font-size: 20px;
+               margin-left: 100px;
+               border-radius: 5px;
+               z-index: auto;
+               width: 750px;
+               height: 120px;
+               position: absolute;
+               background-color: white;
+               border: solid 2px cornflowerblue;
+  
+             }
+
+    #eu{
+               text-align: justify;
+               color: black;
+               font-size: 20px;
+               margin-top: 1100px;
+               border-radius: 5px;
+               border: solid 2px cornflowerblue;
+               z-index: auto;
+               width: 950px;
+               height: 400px;
+               position: absolute;
+               background-color: whitesmoke;
+               float: left;
+             }
+
+    #estudo{
+               text-align: justify;
+               place-content: center;
+               color: black;
+               font-size: 20px;
+               margin-top: 2580px;
+               border-radius: 5px;
+               border: solid 2px cornflowerblue;
+               z-index: auto;
+               width: 950px;
+               height: 450px;
+               position: absolute;
+               background-color: whitesmoke;
+               float: left;
+             }
+
+    #experiencia{
+               text-align: justify;
+               place-content: center;
+               color: black;
+               font-size: 20px;
+               margin-top: 3700px;
+               border-radius: 5px;
+               border: solid 2px cornflowerblue;
+               z-index: auto;
+               width: 950px;
+               height: 450px;
+               position: absolute;
+               background-color: whitesmoke;
+               float: left;
+             }
+
+    #projetos{
+               text-align: justify;
+               color: black;
+               font-size: 20px;
+               margin-top: 4900px;
+               border-radius: 5px;
+               border: solid 2px cornflowerblue;
+               z-index: auto;
+               width: 950px;
+               height: 1800px;
+               position: absolute;
+               background-color: whitesmoke;
+               float: left;
+             }
+
+    #footer {
+               margin-top: 6700px;
+               margin-left: 250px;
+               position: absolute;
+               z-index: auto;
+               font-size: 20px;
+  
+             }
+
+    h2{
+  text-align: center;
+}
+    #divisoria {
+  border: solid 2px black;
+  width: 920px;
+}
+
+
+
+
+}
