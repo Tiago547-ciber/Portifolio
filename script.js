@@ -45,6 +45,7 @@ function menu2() {
     var a = document.getElementById("botao");
     a.remove();
     document.getElementById("menu").innerHTML = '<button id="fechar" onclick="fechar()">x</button><button id="inicio" onclick="inicio()">Inicio</button><button id="sobre" onclick="sobre()">Sobre mim</button><button id="formacao" onclick="estudo()">Formação</button><button id="xp" onclick="trabalho()">Experiência</button><button id="PROJETOS" onclick="projetos()">Projetos</button>';
+    var titulo = document.getElementById('titulo');
     var body2 = document.getElementById('menu2');
     var fechar = document.getElementById("fechar");
     var inicio = document.getElementById("inicio");
@@ -57,6 +58,7 @@ function menu2() {
     body2.style.width = '300px';
     body2.style.marginTop = '50px';
     body2.style.backgroundColor = 'whitesmoke';
+  
         
    if (tela <= tamanho) {
         fechar.style.width = tela+"px";
