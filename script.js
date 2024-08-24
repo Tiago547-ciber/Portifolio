@@ -53,7 +53,7 @@ function menu2() {
     var xp = document.getElementById("xp");
     var projetos = document.getElementById("PROJETOS");
     var tela = window.innerWidth;
-    var tamanho = 1080;
+    var tamanho = 900;
     body2.style.width = '300px';
     body2.style.marginTop = '50px';
     body2.style.backgroundColor = 'whitesmoke';
@@ -142,7 +142,7 @@ function menu2() {
         fechar.style.fontSize = '25px';
     
     
-        inicio.style.width = '1570px';
+        inicio.style.width = '1070px';
         inicio.style.height = '35px';
         inicio.style.borderTop = 'none';
         inicio.style.borderLeft = 'solid 2px cornflowerblue';
@@ -154,7 +154,7 @@ function menu2() {
         inicio.style.fontSize = '25px';
     
     
-        eu.style.width = '1570px';
+        eu.style.width = '1070px';
         eu.style.height = '35px';
         eu.style.animation = 'move5 1s';
         eu.style.backgroundColor = 'whitesmoke';
@@ -166,7 +166,7 @@ function menu2() {
         eu.style.fontSize = '25px';
     
     
-        formacao.style.width = '1570px';
+        formacao.style.width = '1070px';
         formacao.style.height = '35px';
         formacao.style.borderTop = 'none';
         formacao.style.borderLeft = 'solid 2px cornflowerblue';
@@ -178,7 +178,7 @@ function menu2() {
         formacao.style.fontSize = '25px';
         
     
-        xp.style.width = '1570px';
+        xp.style.width = '1070px';
         xp.style.height = '35px';
         xp.style.borderTop = 'none';
         xp.style.borderLeft = 'solid 2px cornflowerblue';
@@ -189,7 +189,7 @@ function menu2() {
         xp.style.animation = 'move5 1s';
         xp.style.fontSize = '25px';
   
-        projetos.style.width = '1570px';
+        projetos.style.width = '1070px';
         projetos.style.height = '35px';
         projetos.style.borderTop = 'none';
         projetos.style.borderLeft = 'solid 2px cornflowerblue';
@@ -212,7 +212,7 @@ function fechar() {
     var xp = document.getElementById("xp");
     var projetos = document.getElementById("PROJETOS");
     var tela = window.innerWidth;
-    var tamanho = 1080;
+    var tamanho = 900;
 
    if (tela <= tamanho) {
         fechar.style.animation = 'move3 1s';

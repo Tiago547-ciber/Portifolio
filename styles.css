@@ -10,7 +10,7 @@ body {
   border-radius: 5px;
   font-size: 10px;
   animation: move 5s infinite;
-  margin-left: 5%;
+  margin-left: 8%;
   margin-right: 10%;
   margin-top: 290px;
   position: absolute;
@@ -203,7 +203,7 @@ h2{
     background-color: "";
   }
   to {
-    width: 1570px;
+    width: 1070px;
     height: 35px;
     background-color: whitesmoke;
   }
@@ -212,7 +212,7 @@ h2{
 
 @keyframes move6{
   from {
-    width: 1570px;
+    width: 1070px;
     height: 35px;
     background-color: whitesmoke;
   }
@@ -237,7 +237,7 @@ h2{
 }
 
 
-@media (min-width: 1080px) {
+@media (min-width: 900px) {
     body {
             background-size: 900px;
   
@@ -249,12 +249,12 @@ h2{
              border-radius: 5px;
              font-size: 20px;
              animation: move 5s infinite;
-             margin-left: 20%;
+             margin-left: 5%;
              margin-right: 10%;
              margin-top: 230px;
              position: absolute;
              z-index: 1;
-             width: 950px;
+             width: 900px;
              height: 200px;
              background-color: whitesmoke;
              background-size: 110px;
@@ -303,7 +303,7 @@ h2{
                place-content: center;
                color: black;
                font-size: 20px;
-               margin-left: 100px;
+               margin-left: 70px;
                border-radius: 5px;
                z-index: auto;
                width: 750px;
@@ -322,7 +322,7 @@ h2{
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
-               width: 950px;
+               width: 900px;
                height: 400px;
                position: absolute;
                background-color: whitesmoke;
@@ -338,7 +338,7 @@ h2{
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
-               width: 950px;
+               width: 900px;
                height: 450px;
                position: absolute;
                background-color: whitesmoke;
@@ -354,7 +354,7 @@ h2{
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
-               width: 950px;
+               width: 900px;
                height: 450px;
                position: absolute;
                background-color: whitesmoke;
@@ -369,7 +369,7 @@ h2{
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
-               width: 950px;
+               width: 900px;
                height: 1800px;
                position: absolute;
                background-color: whitesmoke;
@@ -378,7 +378,7 @@ h2{
 
     #footer {
                margin-top: 6700px;
-               margin-left: 250px;
+               margin-left: 200px;
                position: absolute;
                z-index: auto;
                font-size: 20px;
