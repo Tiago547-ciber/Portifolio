@@ -9,9 +9,9 @@ body {
   place-content: center;
   color: black;
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 20px;
   animation: move 5s infinite;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-right: 10%;
   margin-top: 290px;
   position: absolute;
