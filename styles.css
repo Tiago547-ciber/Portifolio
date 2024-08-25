@@ -1,242 +1,5 @@
-
-body {
-  background-image: url('./20240820_103213_0000.png');
-  background-size: 250px;
-  
-}
-#titulo{
-  text-align: center;
-  place-content: center;
-  color: black;
-  border-radius: 5px;
-  font-size: 10px;
-  animation: move 5s infinite;
-  margin-left: 8%;
-  margin-right: 10%;
-  margin-top: 290px;
-  position: absolute;
-  z-index: 1;
-  width: 350px;
-  height: 120px;
-  background-color: whitesmoke;
-  background-size: 110px ;
-}
-
-#botao {
-  width: 50px;
-  height: 50px;
-  box-shadow: 1px 1px cornflowerblue;
-  color: black;
-  background-color: white;
-  margin-left: 1px;
-}
-
-h1 {
-  text-align: center;
-}
-p{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-img {width: 330px;
-  height: 350px;
-  border: solid 1px black;
-}
-legend {
-  font-size: 15px;
-  text-align: center;
-}
-
-#menu {
-  position: fixed;
-  z-index: 2;
-  
-}
-
-#menu2{
-  position: fixed;
-  z-index: 2;
-}
-
-#subtitulo{
-  text-align: justify;
-  color: black;
-  font-size: 20px;
-  margin-top: 100px;
-  border-radius: 5px;
-  z-index: auto;
-  width: 350px;
-  height: 120px;
-  position: absolute;
-  background-color: white;
-  border: solid 2px cornflowerblue;
-  
-}
-
-#eu{
-  text-align: justify;
-  color: black;
-  font-size: 20px;
-  margin-top: 1100px;
-  border-radius: 5px;
-  border: solid 2px cornflowerblue;
-  z-index: auto;
-  width: 350px;
-  height: 700px;
-  position: absolute;
-  background-color: whitesmoke;
-  float: left;
-}
-
-#estudo{
-  text-align: justify;
-  color: black;
-  font-size: 20px;
-  margin-top: 2580px;
-  border-radius: 5px;
-  border: solid 2px cornflowerblue;
-  z-index: auto;
-  width: 350px;
-  height: 450px;
-  position: absolute;
-  background-color: whitesmoke;
-  float: left;
-}
-
-#experiencia{
-  text-align: justify;
-  color: black;
-  font-size: 20px;
-  margin-top: 3700px;
-  border-radius: 5px;
-  border: solid 2px cornflowerblue;
-  z-index: auto;
-  width: 350px;
-  height: 450px;
-  position: absolute;
-  background-color: whitesmoke;
-  float: left;
-}
-
-#projetos{
-  text-align: justify;
-  color: black;
-  font-size: 20px;
-  margin-top: 4900px;
-  border-radius: 5px;
-  border: solid 2px cornflowerblue;
-  z-index: auto;
-  width: 350px;
-  height: 1800px;
-  position: absolute;
-  background-color: whitesmoke;
-  float: left;
-}
-
-#footer {
-  margin-top: 6700px;
-  margin-left: 5px;
-  position: absolute;
-  z-index: auto;
-  font-size: 15px;
-  
-}
-
-h2{
-  text-align: center;
-}
-#divisoria {
-  border: solid 2px black;
-  width: 320px;
-}
-@keyframes move{
-  0% {
-    box-shadow: 0px 0px 0px 0px #00FA9A;
-  }
-  
-  33% {
-    box-shadow: 0px 0px 6px 10px #00FA9A;
-  }
-  66% {
-    box-shadow: 0px 0px 0px 0px #00FA9A;
-  }
-  100% {
-    box-shadow: 0px 0px 6px 10px #00FA9A;
-  }
-}
-
-@keyframes move2 {
-  from {
-    width: 0px;
-    height: 35px;
-    background-color: "";
-  }
-  to {
-    width: 420px;
-    height: 35px;
-    background-color: whitesmoke;
-  }
-}
-
-
-@keyframes move3{
-  from {
-    width: 420px;
-    height: 35px;
-    background-color: white;
-  }
-  to {
-    width: 0px;
-    height: 35px;
-    background-color: white;
-    border: none;
-  }
-}
-
-@keyframes move4{
-  from {
-    margin-left: 0px;
-    
-    background-color: whitesmoke;
-  }
-  to {
-    margin-left: 1px;
-    background-color: whitesmoke;
-  }
-}
-
-  @keyframes move5{
-  from {
-    width: 450px;
-    height: 35px;
-    background-color: white;
-  }
-  to {
-    width: 0px;
-    height: 35px;
-    background-color: white;
-    border: none;
-  }
-}
-
-
-@keyframes move6{
-  from {
-    width: 0px;
-    height: 35px;
-    background-color: white;
-  }
-  to {
-    width: 450px;
-    height: 35px;
-    background-color: white;
-    border: none;
-  }
-}
-}
-@media (min-width: 900px) {
     body {
+            background-image: url('./20240820_103213_0000.png');
             background-size: 900px;
   
     }   
@@ -247,7 +10,7 @@ h2{
              border-radius: 5px;
              font-size: 20px;
              animation: move 5s infinite;
-             margin-left: 28%;
+             margin-left: 8%;
              margin-right: 10%;
              margin-top: 230px;
              position: absolute;
@@ -275,10 +38,10 @@ h2{
                margin-right: 10px;
              }
 
-    img {      width: 430px;
+    img{      width: 430px;
                height: 350px;
                border: solid 1px black;
-               margin-left: 250px;
+               margin-left: 300px;
              }
     legend {
                font-size: 15px;
@@ -301,7 +64,8 @@ h2{
                place-content: center;
                color: black;
                font-size: 20px;
-               margin-left: 100px;
+               margin-left: 150px;
+               margin-top: 450px;
                border-radius: 5px;
                z-index: auto;
                width: 750px;
@@ -312,11 +76,12 @@ h2{
   
              }
 
-    #eu{
+           #eu{
                text-align: justify;
                color: black;
                font-size: 20px;
                margin-top: 1100px;
+               margin-left: 8%;
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
@@ -333,6 +98,7 @@ h2{
                color: black;
                font-size: 20px;
                margin-top: 2580px;
+               margin-left: 8%;
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
@@ -349,6 +115,7 @@ h2{
                color: black;
                font-size: 20px;
                margin-top: 3700px;
+               margin-left: 8%;
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
@@ -364,6 +131,7 @@ h2{
                color: black;
                font-size: 20px;
                margin-top: 4900px;
+               margin-left: 8%;
                border-radius: 5px;
                border: solid 2px cornflowerblue;
                z-index: auto;
@@ -476,4 +244,248 @@ h2{
     }
   }
 
+@media (max-width: 450px) {
+
+  body {
+    background-image: url('./20240820_103213_0000.png');
+    background-size: 250px;
+  
+  }
+  #titulo{
+    text-align: center;
+    place-content: center;
+    color: black;
+    border-radius: 5px;
+    font-size: 10px;
+    animation: move 5s infinite;
+    margin-left: 180px;
+    margin-right: 10%;
+    margin-top: 340px;
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 120px;
+    background-color: whitesmoke;
+    background-size: 110px ;
+  }
+
+  #botao {
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px cornflowerblue;
+    color: black;
+    background-color: white;
+    margin-left: 1px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  p{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  img{
+    width: 250px;
+    height: 250px;
+    border: solid 1px black;
+    margin-left: 50px;      
+  }
+  legend {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #menu {
+    position: fixed;
+    z-index: 2;
+  }
+
+  #menu2{
+    position: fixed;
+    z-index: 2;
+  }
+
+  #subtitulo{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 500px;
+    margin-left: 180px;
+    z-index: auto;
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    background-color: white;
+    border: solid 2px cornflowerblue;
+  }
+
+  #eu{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    margin-top: 1500px;
+    margin-left: 180px;
+    border-radius: 5px;
+    border: solid 2px cornflowerblue;
+    z-index: auto;
+    width: 350px;
+    height: 700px;
+    position: absolute;
+    background-color: whitesmoke;
+    float: left;
+  }
+
+  #estudo{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    margin-top: 2980px;
+    margin-left: 180px;
+    border-radius: 5px;
+    border: solid 2px cornflowerblue;
+    z-index: auto;
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    background-color: whitesmoke;
+    float: left;
+  }
+
+  #experiencia{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    margin-top: 4100px;
+    margin-left: 180px;
+    border-radius: 5px;
+    border: solid 2px cornflowerblue;
+    z-index: auto;
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    background-color: whitesmoke;
+    float: left;
+  }
+
+  #projetos{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    margin-top: 5300px;
+    margin-left: 180px;
+    border-radius: 5px;
+    border: solid 2px cornflowerblue;
+    z-index: auto;
+    width: 350px;
+    height: 1600px;
+    position: absolute;
+    background-color: whitesmoke;
+    
+  }
+         
+        
+        
+
+  #footer {
+    margin-top: 6900px;
+    margin-left: 150px;
+    width: 500px;
+    position: absolute;
+    z-index: auto;
+    font-size: 15px;
+  }
+
+  h2{
+    text-align: center;
+  }
+  #divisoria {
+    border: solid 2px black;
+    width: 320px;
+  }
+  @keyframes move{
+    0% {
+      box-shadow: 0px 0px 0px 0px #00FA9A;
+    }
+   
+    33% {
+      box-shadow: 0px 0px 6px 10px #00FA9A;
+    }
+    66% {
+      box-shadow: 0px 0px 0px 0px #00FA9A;
+    }
+    100% {
+      box-shadow: 0px 0px 6px 10px #00FA9A;
+    }
+  }
+
+  @keyframes move2 {
+    from {
+      width: 0px;
+      height: 35px;
+      background-color: "";
+    }
+    to {
+      width: 420px;
+      height: 35px;
+      background-color: whitesmoke;
+    }
+  }
+
+
+  @keyframes move3{
+    from {
+      width: 420px;
+      height: 35px;
+      background-color: white;
+    }
+    to {
+      width: 0px;
+      height: 35px;
+      background-color: white;
+      border: none;
+    }
+  }
+
+  @keyframes move4{
+    from {
+      margin-left: 0px;
+      background-color: whitesmoke;
+    }
+    to {
+      margin-left: 1px;
+      background-color: whitesmoke;
+    }
+  }
+
+  @keyframes move5{
+    from {
+      width: 450px;
+      height: 35px;
+      background-color: white;
+    }
+    to {
+      width: 0px;
+      height: 35px;
+      background-color: white;
+      border: none;
+    }
+  }
+
+
+  @keyframes move6{
+    from {
+      width: 0px;
+      height: 35px;
+      background-color: white;
+    }
+    to {
+      width: 450px;
+      height: 35px;
+      background-color: white;
+      border: none;
+    }
+  }1
 }
