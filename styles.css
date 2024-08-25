@@ -1,4 +1,4 @@
-@media (min-width: 400px) {
+
 body {
   background-image: url('./20240820_103213_0000.png');
   background-size: 250px;
@@ -11,7 +11,7 @@ body {
   border-radius: 5px;
   font-size: 10px;
   animation: move 5s infinite;
-  margin-left: 8%;
+  margin-left: 20%;
   margin-right: 10%;
   margin-top: 290px;
   position: absolute;
@@ -235,7 +235,7 @@ h2{
   }
 }
 }
-@media (min-width: 900px) {
+@media (min-width: 1080px) {
     body {
             background-size: 900px;
   
