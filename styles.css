@@ -9,15 +9,15 @@ body {
   place-content: center;
   color: black;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 10px;
   animation: move 5s infinite;
-  margin-left: 20%;
+  margin-left: 8%;
   margin-right: 10%;
   margin-top: 290px;
   position: absolute;
   z-index: 1;
-  width: 900px;
-  height: 400px;
+  width: 350px;
+  height: 120px;
   background-color: whitesmoke;
   background-size: 110px ;
 }
@@ -66,8 +66,8 @@ legend {
   margin-top: 100px;
   border-radius: 5px;
   z-index: auto;
-  width: 900px;
-  height: 220px;
+  width: 350px;
+  height: 120px;
   position: absolute;
   background-color: white;
   border: solid 2px cornflowerblue;
@@ -82,8 +82,8 @@ legend {
   border-radius: 5px;
   border: solid 2px cornflowerblue;
   z-index: auto;
-  width: 900px;
-  height: 800px;
+  width: 350px;
+  height: 700px;
   position: absolute;
   background-color: whitesmoke;
   float: left;
@@ -97,8 +97,8 @@ legend {
   border-radius: 5px;
   border: solid 2px cornflowerblue;
   z-index: auto;
-  width: 900px;
-  height: 550px;
+  width: 350px;
+  height: 450px;
   position: absolute;
   background-color: whitesmoke;
   float: left;
@@ -112,8 +112,8 @@ legend {
   border-radius: 5px;
   border: solid 2px cornflowerblue;
   z-index: auto;
-  width: 900px;
-  height: 550px;
+  width: 350px;
+  height: 450px;
   position: absolute;
   background-color: whitesmoke;
   float: left;
@@ -127,7 +127,7 @@ legend {
   border-radius: 5px;
   border: solid 2px cornflowerblue;
   z-index: auto;
-  width: 900px;
+  width: 350px;
   height: 1800px;
   position: absolute;
   background-color: whitesmoke;
@@ -235,7 +235,7 @@ h2{
   }
 }
 }
-@media (min-width: 1080px) {
+@media (min-width: 900px) {
     body {
             background-size: 900px;
   
