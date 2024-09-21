@@ -132,7 +132,7 @@
                border: solid 2px cornflowerblue;
                z-index: auto;
                width: 900px;
-               height: 4600px;
+               height: 4500px;
                position: absolute;
                background-color: whitesmoke;
                float: left;
@@ -379,7 +379,7 @@
     border: solid 2px cornflowerblue;
     z-index: auto;
     width: 500px;
-    height: 3750px;
+    height: 3900px;
     position: absolute;
     background-color: whitesmoke;
     
