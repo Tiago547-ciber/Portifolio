@@ -38,7 +38,9 @@
                margin-right: 10px;
              }
 
-    img{      width: 430px;
+    img{     
+               object-fit: cover;
+               width: 430px;
                height: 350px;
                border: solid 1px black;
                margin-left: 220px;
