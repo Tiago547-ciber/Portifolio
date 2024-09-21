@@ -132,14 +132,14 @@
                border: solid 2px cornflowerblue;
                z-index: auto;
                width: 900px;
-               height: 44700px;
+               height: 4500px;
                position: absolute;
                background-color: whitesmoke;
                float: left;
              }
 
     #footer {
-               margin-top: 6900px;
+               margin-top: 7100px;
                margin-left: 200px;
                position: absolute;
                z-index: 2;
