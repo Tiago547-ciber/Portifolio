@@ -379,7 +379,7 @@
     border: solid 2px cornflowerblue;
     z-index: auto;
     width: 500px;
-    height: 3700px;
+    height: 3900px;
     position: absolute;
     background-color: whitesmoke;
     
@@ -389,7 +389,7 @@
         
 
   #footer {
-    margin-top: 6900px;
+    margin-top: 7000px;
     margin-left: 100px;
     width: 500px;
     font-size: 15px;
