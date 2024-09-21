@@ -1,5 +1,5 @@
     body {
-            background-image: url('./20240820_103213_0000.png');
+            background-image: url('./Imagens/20240820_103213_0000.png');
             background-size: 900px;
   
     }   
@@ -132,7 +132,7 @@
                border: solid 2px cornflowerblue;
                z-index: auto;
                width: 900px;
-               height: 1800px;
+               height: 4470px;
                position: absolute;
                background-color: whitesmoke;
                float: left;
@@ -140,12 +140,15 @@
 
     #footer {
                margin-top: 6700px;
-               margin-left: 250px;
+               margin-left: 200px;
                position: absolute;
-               z-index: auto;
+               z-index: 2;
                font-size: 20px;
-  
+               position: absolute;    
+               
+               width: 200px;
              }
+
 
     h2{
   text-align: center;
@@ -240,10 +243,10 @@
     }
   }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
   body {
-    background-image: url('./20240820_103213_0000.png');
+    background-image: url('./Imagens/20240820_103213_0000.png');
     background-size: 250px;
   
   }
@@ -252,22 +255,22 @@
     place-content: center;
     color: black;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 20px;
     animation: move 5s infinite;
-    margin-left: 180px;
+    margin-left: 130px;
     margin-right: 10%;
-    margin-top: 340px;
+    margin-top: 490px;
     position: absolute;
     z-index: 1;
-    width: 350px;
-    height: 120px;
+    width: 500px;
+    height: 200px;
     background-color: whitesmoke;
     background-size: 110px ;
   }
 
   #botao {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     box-shadow: 1px 1px cornflowerblue;
     color: black;
     background-color: white;
@@ -308,10 +311,10 @@
     color: black;
     font-size: 20px;
     border-radius: 5px;
-    margin-top: 500px;
-    margin-left: 180px;
+    margin-top: 60px;
+    margin-left: 40px;
     z-index: auto;
-    width: 350px;
+    width: 400px;
     height: 120px;
     position: absolute;
     background-color: white;
@@ -323,11 +326,11 @@
     color: black;
     font-size: 20px;
     margin-top: 1500px;
-    margin-left: 180px;
+    
     border-radius: 5px;
     border: solid 2px cornflowerblue;
     z-index: auto;
-    width: 350px;
+    width: 500px;
     height: 700px;
     position: absolute;
     background-color: whitesmoke;
@@ -339,11 +342,11 @@
     color: black;
     font-size: 20px;
     margin-top: 2980px;
-    margin-left: 180px;
+    
     border-radius: 5px;
     border: solid 2px cornflowerblue;
     z-index: auto;
-    width: 350px;
+    width: 500px;
     height: 450px;
     position: absolute;
     background-color: whitesmoke;
@@ -355,11 +358,11 @@
     color: black;
     font-size: 20px;
     margin-top: 4100px;
-    margin-left: 180px;
+    
     border-radius: 5px;
     border: solid 2px cornflowerblue;
     z-index: auto;
-    width: 350px;
+    width: 500px;
     height: 450px;
     position: absolute;
     background-color: whitesmoke;
@@ -367,16 +370,16 @@
   }
 
   #projetos{
-    text-align: justify;
+    text-align: center;
     color: black;
     font-size: 20px;
     margin-top: 5300px;
-    margin-left: 180px;
+    
     border-radius: 5px;
     border: solid 2px cornflowerblue;
     z-index: auto;
-    width: 350px;
-    height: 1600px;
+    width: 500px;
+    height: 3700px;
     position: absolute;
     background-color: whitesmoke;
     
@@ -387,11 +390,11 @@
 
   #footer {
     margin-top: 6900px;
-    margin-left: 150px;
+    margin-left: 100px;
     width: 500px;
-    position: absolute;
-    z-index: auto;
     font-size: 15px;
+    position: absolute;    
+    z-index: 2;      
   }
 
   h2{
@@ -399,7 +402,7 @@
   }
   #divisoria {
     border: solid 2px black;
-    width: 320px;
+    width: 480px;
   }
   @keyframes move{
     0% {
