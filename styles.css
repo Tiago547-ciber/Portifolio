@@ -39,7 +39,7 @@
              }
 
     img{     
-               object-fit: cover;
+               object-fit: fill;
                width: 430px;
                height: 350px;
                border: solid 1px black;
@@ -288,10 +288,11 @@
   }
 
   img{
-    width: 250px;
-    height: 250px;
-    border: solid 1px black;
-    margin-left: 50px;      
+      object-fit: fill;
+      width: 250px;
+      height: 250px;
+      border: solid 1px black;
+      margin-left: 50px;      
   }
   legend {
     font-size: 15px;
