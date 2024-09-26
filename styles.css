@@ -1,5 +1,5 @@
     body {
-            background-image: url('./20240820_103213_0000.png');
+            background-image: url('./Imagens/20240820_103213_0000.png');
             background-size: 900px;
   
     }   
@@ -38,8 +38,8 @@
                margin-right: 10px;
              }
 
-    img{     
-               object-fit: fill;
+    img{      
+               object-fit: contain;
                width: 430px;
                height: 350px;
                border: solid 1px black;
@@ -134,14 +134,14 @@
                border: solid 2px cornflowerblue;
                z-index: auto;
                width: 900px;
-               height: 4500px;
+               height: 4470px;
                position: absolute;
                background-color: whitesmoke;
                float: left;
              }
 
     #footer {
-               margin-top: 7100px;
+               margin-top: 6700px;
                margin-left: 200px;
                position: absolute;
                z-index: 2;
@@ -245,10 +245,10 @@
     }
   }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1500px) {
 
   body {
-    background-image: url('./20240820_103213_0000.png');
+    background-image: url('./Imagens/20240820_103213_0000.png');
     background-size: 250px;
   
   }
@@ -259,7 +259,7 @@
     border-radius: 5px;
     font-size: 20px;
     animation: move 5s infinite;
-    margin-left: 130px;
+    margin-left: 250px;
     margin-right: 10%;
     margin-top: 490px;
     position: absolute;
@@ -288,11 +288,11 @@
   }
 
   img{
-      object-fit: fill;
-      width: 250px;
-      height: 250px;
-      border: solid 1px black;
-      margin-left: 50px;      
+          object-fit: fill;
+          width: 250px;
+          height: 250px;
+          border: solid 1px black;
+          margin-left: 50px;      
   }
   legend {
     font-size: 15px;
@@ -382,7 +382,7 @@
     border: solid 2px cornflowerblue;
     z-index: auto;
     width: 500px;
-    height: 4000px;
+    height: 3750px;
     position: absolute;
     background-color: whitesmoke;
     
@@ -392,7 +392,7 @@
         
 
   #footer {
-    margin-top: 7000px;
+    margin-top: 6000px;
     margin-left: 100px;
     width: 500px;
     font-size: 15px;
