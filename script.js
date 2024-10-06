@@ -1,5 +1,4 @@
-var perfil = document.querySelector("#fotoP");
-perfil.src = "./IMG_20241003_091732865.jpg";
+
 
 function inicio() {
     window.scroll({
