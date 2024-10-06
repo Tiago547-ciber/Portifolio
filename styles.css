@@ -45,7 +45,8 @@
     }
 
     img{      
-               object-fit: contain;
+               object-fit: cover;
+               object-position: center top;
                width: 430px;
                height: 350px;
                border: solid 1px black;
