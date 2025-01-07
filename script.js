@@ -80,7 +80,7 @@ function Crono() {
     info.style.alignItems = "center";
     info.style.display = "flex";
     info.style.border = "solid 2px black";
-    info.innerHTML = "O projeto foi totalmemte construido com html, css e js. Se trata de um relogio cok função cronômetro (ou vice-versa rsrs).";
+    info.innerHTML = "O projeto foi totalmemte construido com html, css e js. Se trata de um relogio com função cronômetro (ou vice-versa rsrs).";
   }
 }
 
