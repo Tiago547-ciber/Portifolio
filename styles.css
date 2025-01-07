@@ -1,0 +1,634 @@
+
+    .expositor {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 10px;
+      margin: 390px 0px 0px 50px;
+      position: absolute;
+      z-index: 11;
+      image-rendering: optimizeQuality;
+    }
+    
+    #imgform1 {
+      width: 150px;
+      height: 250px;
+      margin-left: 10px;
+      border-radius: 30px;
+    }
+    
+    #imgform2{
+      margin-left: 10px;
+      width: 200px;
+      height: 250px;
+      border-radius: 50px;
+    }
+    
+    #imgform3 {
+      width: 200px;
+      height: 200px;
+      margin-left: 10px;
+      border-radius: 20px;
+    }
+    
+    #imgform4 {
+      width: 150px;
+      height: 250px;
+      margin-left: 10px;
+      border-radius: 30px;
+    }
+    
+    
+    
+    #titulo{
+      border-radius:50px;
+      margin-left: 5%;
+      margin-right: 10%;
+      margin-top: 230px;
+      width: 900px;
+      height: 1300px;
+      background-color: whitesmoke;
+      border: solid 2px cornflowerblue;
+      background-size: 110px;
+      position: absolute;
+      z-index: 2;
+    }
+    
+        #port {
+          font-size: 140px;
+          color: black;
+          margin-left: 130px;
+          border-radius:10px;
+          position: absolute;
+          z-index: 3;
+        }
+    
+        #nome {
+          font-size: 80px;
+          color: black;
+          border-radius:10px;
+          position: absolute;
+          z-index: 3;
+          margin-left: 35%;
+          margin-top: 830px;
+        }
+    
+        #sobrenome {
+          font-size: 90px;
+          color: black;
+          border-radius:10px;
+          position: absolute;
+          z-index: 3;
+          margin-left: 25%;
+          margin-top: 890px;
+    
+        }
+    
+        #subtitulo{
+          color: black;
+          font-size: 30px;
+          position: absolute;
+          z-index: 4;
+          margin-left: 25%;
+          margin-top: 1000px;
+          width: 500px;
+          height: 100px;
+        }
+    
+        #foto {
+          position: absolute;
+          z-index: 5;
+          border-radius:100%;
+          margin-left: 300px;
+          margin-top:400px;
+          width: 300px;
+          height: 300px;
+        }
+    
+        #eu{
+          text-align: justify;
+          margin-top: 2100px;
+          margin-left: 5%;
+          border-radius: 50px;
+          border: solid 2px cornflowerblue;
+          border-radius:50px;
+          width: 900px;
+          height: 1300px;
+          background-color: whitesmoke;
+          float: left;
+        }
+    
+        #sobreM {
+          color: black;
+          margin-left: 40px;
+          font-size: 130px;
+          position: absolute;
+          z-index: 6;
+        }
+    
+        #desc {
+          color: black;
+          margin-top: 700px;
+          margin-left: 50px;
+          width: 800px;
+          font-size: 30px;
+          position: absolute;
+          z-index: 6;
+        }
+    
+        #estudo{
+          color: black;
+          margin-top:480px;
+          margin-left: 5%;
+          border-radius: 50px;
+          border: solid 2px cornflowerblue;
+          width: 900px;
+          height: 1300px;
+          background-color: whitesmoke;
+          float: left;
+        }
+    
+        #TituloForma {
+          position: absolute;
+          z-index: 7;
+          font-size: 130px;
+          margin-left: 40px;
+        }
+    
+        #form {
+          position: absolute;
+          z-index: 7;
+          font-size: 30px;
+          margin-top: 700px;
+          margin-left: 20px;
+        }
+        #experiencia{
+          text-align: justify;
+          color: black;
+          margin-top: 2100px;
+          border-radius: 50px;
+          border: solid 2px cornflowerblue;
+          width: 900px;
+          height: 1300px;
+          background-color: whitesmoke;
+          float: left;
+        }
+    
+        #TituloExp {
+          position: absolute;
+          z-index: 8;
+          font-size:130px;
+        
+          margin-left: 40px;
+        }
+    
+        #exp {
+          position: absolute;
+          z-index: 8;
+          font-size: 30px;
+          margin-top: 700px;
+          margin-left: 20px;
+          margin-right: 30px;
+        }
+    
+        #projetos{
+          text-align: justify;
+          color: black;
+          margin-top: 900px;
+          border-radius: 50px;
+          border: solid 2px cornflowerblue;
+          width: 900px;
+          height: 900px;
+          background-color: whitesmoke;
+          float: left;
+        }
+    
+        #TituloPro {
+          position:absolute;
+          z-index: 9;
+          font-size: 130px;
+          margin-left: 180px;
+        }
+        #pro {
+          background-size: 200px;
+          background-position: top;
+          border-radius: 20px;
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          z-index: 9;
+        }
+    
+        .blocoDeNotas {
+          background-image: url(imagens/Screenshot_20240822-165418~2.png);
+          margin-left: 20px;
+          margin-top: 400px;
+        }
+    
+        .Zoologico {
+          background-image: url(imagens/Screenshot_20240920-234131~2.png);
+          margin-left: 250px;
+          margin-top: 400px;
+
+        }
+    
+     .Cronometro {
+      background-image: url(imagens/Screenshot_20250106-002935~2.png);
+      margin-left: 485px;
+      margin-top: 400px;
+    }   
+        #botao {
+          position: absolute;
+          z-index: 15;
+          width: 80px;
+          height: 80px;
+          box-shadow: 1px 1px cornflowerblue;
+          color: black;
+          background-color: white;
+          margin-left: 1px;
+          border-radius: 5px;
+          background-image: url(./imagens/botão.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 150px;
+        }
+
+        #footer {
+          margin-top: 1700px;
+          margin-left: 100px;
+         font-size: 30px;
+
+        }
+  @media (min-width: 1080px) {
+.expositor {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin: 150px 0px 0px 50px;
+  position: absolute;
+  z-index: 11;
+  image-rendering: optimizeQuality;
+}
+
+#imgform1 {
+  width: 150px;
+  height: 250px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+
+#imgform2{
+  margin-left: 10px;
+  width: 200px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+#imgform3 {
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+#imgform4 {
+  width: 150px;
+  height: 250px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+
+
+
+#titulo{
+  border-radius:50px;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-top: 130px;
+  width: 900px;
+  height: 600px;
+  background-color: whitesmoke;
+  border: solid 2px cornflowerblue;
+  background-size: 110px;
+  position: absolute;
+  z-index: 2;
+}
+
+    #port {
+      font-size: 100px;
+      color: black;
+      margin-left: 20px;
+      border-radius:10px;
+      position: absolute;
+      z-index: 3;
+    }
+
+    #nome {
+      font-size: 60px;
+      color: black;
+      border-radius:10px;
+      position: absolute;
+      z-index: 3;
+      margin-left: 55%;
+      margin-top: 230px;
+    }
+
+    #sobrenome {
+      font-size: 70px;
+      color: black;
+      border-radius:10px;
+      position: absolute;
+      z-index: 3;
+      margin-left: 55%;
+      margin-top: 270px;
+
+    }
+
+    #subtitulo{
+      color: black;
+      font-size: 20px;
+      position: absolute;
+      z-index: 4;
+      margin-left: 54%;
+      margin-top: 330px;
+      width: 400px;
+      height: 100px;
+    }
+
+    #foto {
+      position: absolute;
+      z-index: 5;
+      border-radius:100%;
+      margin-left: 80px;
+      margin-top:230px;
+      width: 300px;
+      height: 300px;
+    }
+
+    #eu{
+      text-align: justify;
+      margin-top: 1100px;
+      margin-left: 30%;
+      border-radius: 50px;
+      border: solid 2px cornflowerblue;
+      border-radius:50px;
+      width: 900px;
+      height: 700px;
+      background-color: whitesmoke;
+      float: left;
+    }
+
+    #sobreM {
+      color: black;
+      margin-left: 20px;
+      font-size: 70px;
+      position: absolute;
+      z-index: 6;
+    }
+
+    #desc {
+      color: black;
+      margin-top: 400px;
+      margin-left: 50px;
+      width: 800px;
+      font-size: 20px;
+      position: absolute;
+      z-index: 6;
+    }
+
+    #estudo{
+      color: black;
+      margin-top:480px;
+      margin-left: 30%;
+      border-radius: 50px;
+      border: solid 2px cornflowerblue;
+      width: 900px;
+      height: 700px;
+      background-color: whitesmoke;
+      float: left;
+    }
+
+    #TituloForma {
+      position: absolute;
+      z-index: 7;
+      font-size: 70px;
+      margin-left: 20px;
+    }
+
+    #form {
+      position: absolute;
+      z-index: 7;
+      font-size: 20px;
+      margin-top: 400px;
+      margin-left: 20px;
+    }
+    #experiencia{
+      text-align: justify;
+      color: black;
+      font-size: 20px;
+      margin-top: 1200px;
+      border-radius: 50px;
+      border: solid 2px cornflowerblue;
+      width: 900px;
+      height: 700px;
+      background-color: whitesmoke;
+      float: left;
+    }
+
+    #TituloExp {
+      position: absolute;
+      z-index: 8;
+      font-size: 70px;
+    
+      margin-left: 20px;
+    }
+
+    #exp {
+      position: absolute;
+      z-index: 8;
+      font-size: 20px;
+      margin-top: 400px;
+      margin-left: 20px;
+    }
+
+    #projetos{
+      text-align: justify;
+      color: black;
+      margin-top: 900px;
+      border-radius: 50px;
+      border: solid 2px cornflowerblue;
+      width: 900px;
+      height: 500px;
+      background-color: whitesmoke;
+      float: left;
+    }
+
+    #TituloPro {
+      position:absolute;
+      z-index: 9;
+      font-size: 70px;
+      margin-left: 20px;
+    }
+    #pro {
+      background-size: 200px;
+      background-position: top;
+      border-radius: 20px;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      z-index: 9;
+    }
+
+    .blocoDeNotas {
+      background-image: url(imagens/Screenshot_20240822-165418~2.png);
+      margin-left: 20px;
+      margin-top: 200px;
+    }
+
+    .Zoologico {
+      background-image: url(imagens/Screenshot_20240920-234131~2.png);
+      margin-left: 250px;
+      margin-top: 200px;
+    }
+
+    .Cronometro {
+      background-image: url(imagens/Screenshot_20250106-002935~2.png);
+      margin-left: 485px;
+      margin-top: 200px;
+    }
+    #botao {
+      position: absolute;
+      z-index: 15;
+      width: 50px;
+      height: 50px;
+      box-shadow: 1px 1px cornflowerblue;
+      color: black;
+      background-color: white;
+      margin-left: 1px;
+      border-radius: 5px;
+      background-image: url(./imagens/botão.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 80px;
+    }
+
+
+
+    #menu {
+               position: fixed;
+               z-index: 15;
+  
+             }
+
+
+
+    
+    
+
+    
+
+    #footer {
+               margin-top: 1700px;
+               margin-left: 200px;
+              font-size: 20px;
+
+             }
+
+
+    h2{
+  text-align: center;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes move2 {
+  from {
+    width: 0px;
+    height: 100x;
+    background-color: "";
+  }
+  to {
+    width: 500px;
+    height: 100px;
+    background-color: whitesmoke;
+  }
+}
+
+
+@keyframes move3{
+  from {
+    width: 420px;
+    height: 450px;
+    background-color: whitesmoke;
+  }
+  to {
+    width: 0px;
+    height: 45px;
+    background-color: whitesmoke;
+    border: none;
+  }
+}
+
+    @keyframes move4{
+  from {
+    margin-left: 0px;
+    
+    background-color: whitesmoke;
+  }
+  to {
+    margin-left: 1px;
+    background-color: whitesmoke;
+  }
+}
+
+
+
+    @keyframes move5{
+  from {
+    width: 400px;
+    height: 100px;
+    background-color: whitesmoke;
+  }
+  to {
+    width: 0px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: none;
+  }
+}
+  
+  
+  @keyframes move6{
+    from {
+      width: 0px;
+      height: 35px;
+      background-color: white;
+    }
+    to {
+      width: 1570px;
+      height: 35px;
+      background-color: white;
+      border: none;
+    }
+  }
+
+
+
+
+    
+}
+
