@@ -15,15 +15,18 @@
 function Notas() {
   const mensagem = document.createElement("p");
   mensagem.id = "info";
+  const zoo = document.getElementById("pro");
   const body = document.querySelector("body");
   body.appendChild(mensagem);
   const info = document.getElementById("info");
   if (window.innerWidth >= 1080) {
+    zoo.style.border = "solid 2px cornflowerblue";
+    zoo.style.borderTop = "none";
     info.style.width = "500px";
     info.style.height = "300px";
     info.style.position = "fixed";
     info.style.zIndex = "10";
-    info.style.margin = "200px 0px 0px 800px";
+    info.style.margin = "200px 0px 0px 400px";
     info.style.backgroundColor = "white";
     info.style.borderRadius = "20px";
     info.style.textAlign = "justify";
@@ -31,23 +34,26 @@ function Notas() {
     info.style.justifyContent = "center";
     info.style.alignItems = "center";
     info.style.display = "flex";
-    info.style.border = "solid 2px black";
+    info.style.border = "solid 2px cornflowerblue";
     info.innerHTML = "Este projeto foi desenvolvido para armazenar lembretes sobre acontecimentos relevantes do dia a dia. Ele permite adicionar textos, datas e fotos, facilitando a organização e o registro de informações importantes. O projeto foi construído utilizando HTML, CSS e JavaScript. CLIQUE NA IMAGEM para ir ate o repositorio.";
   }
 }
 
 function Zoo() {
   const mensagem = document.createElement("p");
+  const zoo = document.getElementById("pro2");
   mensagem.id = "info";
   const body = document.querySelector("body");
   body.appendChild(mensagem);
   const info = document.getElementById("info");
   if (window.innerWidth >= 1080) {
+    zoo.style.border = "solid 2px cornflowerblue";
+    zoo.style.borderTop = "none";
     info.style.width = "500px";
     info.style.height = "300px";
     info.style.position = "fixed";
     info.style.zIndex = "10";
-    info.style.margin = "200px 0px 0px 800px";
+    info.style.margin = "200px 0px 0px 400px";
     info.style.backgroundColor = "white";
     info.style.borderRadius = "20px";
     info.style.textAlign = "justify";
@@ -55,23 +61,28 @@ function Zoo() {
     info.style.justifyContent = "center";
     info.style.alignItems = "center";
     info.style.display = "flex";
-    info.style.border = "solid 2px black";
-    info.innerHTML = "Após participar do desafio DB , decidi melhorar um pouco o visual da minha solução, na criação de um sistema de separação de animais por tipo e habitat ideal. Utilizei o app Code Studio (grande aliado para quem não tem um pc). Recomendo fortemente, rodar o arquivo html através do app. CLIQUE NA IMAGEM para ir ate o repositorio.";
+    info.style.border = "solid 2px cornflowerblue";
+    info.innerHTML = `Após participar do desafio DB , decidi melhorar um pouco o visual da minha solução, na criação de um sistema de separação de animais por tipo e habitat ideal.
+                      Utilizei o app Code Studio (grande aliado para quem não tem um pc).
+                      Recomendo fortemente, rodar o arquivo html através do app. CLIQUE NA IMAGEM para ir ate o repositorio.`;
   }
 }
 
-function Crono() {
+function Ger() {
   const mensagem = document.createElement("p");
   mensagem.id = "info";
+  const zoo = document.getElementById("pro3");
   const body = document.querySelector("body");
   body.appendChild(mensagem);
   const info = document.getElementById("info");
   if (window.innerWidth >= 1080) {
+    zoo.style.border = "solid 2px cornflowerblue";
+    zoo.style.borderTop = "none";
     info.style.width = "500px";
     info.style.height = "300px";
     info.style.position = "fixed";
     info.style.zIndex = "10";
-    info.style.margin = "200px 0px 0px 800px";
+    info.style.margin = "200px 0px 0px 400px";
     info.style.backgroundColor = "white";
     info.style.borderRadius = "20px";
     info.style.textAlign = "justify";
@@ -79,8 +90,40 @@ function Crono() {
     info.style.justifyContent = "center";
     info.style.alignItems = "center";
     info.style.display = "flex";
-    info.style.border = "solid 2px black";
-    info.innerHTML = "O projeto foi totalmemte construido com html, css e js. Se trata de um relogio com função cronômetro (ou vice-versa rsrs).";
+    info.style.border = "solid 2px cornflowerblue";
+    info.innerHTML = `Tive a ideia de criar uma solução depois que minha esposa compartilhou uma dificuldade que estava enfrentando no trabalho.
+                      Ela precisava cortar as senhas manualmente todas as noites para distribuí-las no dia seguinte no hospital onde trabalha.
+                      Para resolver isso, utilizei React e Vite para desenvolver o projeto.`;
+  }
+}
+
+function Lit() {
+  const mensagem = document.createElement("p");
+  mensagem.id = "info";
+  const zoo = document.getElementById("pro4");
+  const body = document.querySelector("body");
+  body.appendChild(mensagem);
+  const info = document.getElementById("info");
+  if (window.innerWidth >= 1080) {
+    zoo.style.border = "solid 2px cornflowerblue";
+    zoo.style.borderTop = "none";
+    info.style.width = "500px";
+    info.style.height = "300px";
+    info.style.position = "fixed";
+    info.style.zIndex = "10";
+    info.style.margin = "200px 0px 0px 400px";
+    info.style.backgroundColor = "white";
+    info.style.borderRadius = "20px";
+    info.style.textAlign = "justify";
+    info.style.fontSize = "20px";
+    info.style.justifyContent = "center";
+    info.style.alignItems = "center";
+    info.style.display = "flex";
+    info.style.border = "solid 2px cornflowerblue";
+    info.innerHTML = `Este projeto é um dos mais pessoais até agora. Decidi criar um joguinho para que meu filho pudesse interagir.
+No primeiro modo, o jogador deve observar a sequência de animais e clicar somente nos animais que o jogo pede naquele momento.
+No segundo modo, ao clicar nas imagens, um som correspondente ao animal é tocado.
+Bem, o jogo foi um sucesso! Meu filho adorou, rs.`;
   }
 }
 
@@ -95,34 +138,41 @@ function Remover() {
     document.getElementsByName("foto3")[i].style.borderBottom = "0px";
     document.getElementsByName("foto3")[i].style.borderLeft = "0px";
     document.getElementsByName("foto3")[i].style.borderRight = "0px";
+    document.getElementById("pro").style.borderBottom = "0px";
+    document.getElementById("pro").style.borderLeft = "0px";
+    document.getElementById("pro").style.borderRight = "0px";
+    document.getElementById("pro2").style.borderBottom = "0px";
+    document.getElementById("pro2").style.borderLeft = "0px";
+    document.getElementById("pro2").style.borderRight = "0px";
+    document.getElementById("pro3").style.borderBottom = "0px";
+    document.getElementById("pro3").style.borderLeft = "0px";
+    document.getElementById("pro3").style.borderRight = "0px";
+    document.getElementById("pro4").style.borderBottom = "0px";
+    document.getElementById("pro4").style.borderLeft = "0px";
+    document.getElementById("pro4").style.borderRight = "0px";
   }
   
   document.getElementById("info").remove();
+
 }
 
 function destacar() {
   if (window.innerWidth >= 1080) {
     for (i=0; i<4; i++) {
-      document.getElementsByName("foto")[i].style.borderBottom = "solid 4px black";
-      document.getElementsByName("foto")[i].style.borderLeft = "solid 4px black";
-      document.getElementsByName("foto")[i].style.borderRight = "solid 4px black";
-      document.getElementsByName("foto2")[i].style.borderBottom = "solid 4px black";
-      document.getElementsByName("foto2")[i].style.borderLeft = "solid 4px black";
-      document.getElementsByName("foto2")[i].style.borderRight = "solid 4px black";
-      document.getElementsByName("foto3")[i].style.borderBottom = "solid 4px black";
-      document.getElementsByName("foto3")[i].style.borderLeft = "solid 4px black";
-      document.getElementsByName("foto3")[i].style.borderRight = "solid 4px black";
+      document.getElementsByName("foto")[i].style.borderBottom = "solid 4px cornflowerblue";
+      document.getElementsByName("foto")[i].style.borderLeft = "solid 4px cornflowerblue";
+      document.getElementsByName("foto")[i].style.borderRight = "solid 4px cornflowerblue";
+      document.getElementsByName("foto2")[i].style.borderBottom = "solid 4px cornflowerblue";
+      document.getElementsByName("foto2")[i].style.borderLeft = "solid 4px cornflowerblue";
+      document.getElementsByName("foto2")[i].style.borderRight = "solid 4px cornflowerblue";
+      document.getElementsByName("foto3")[i].style.borderBottom = "solid 4px cornflowerblue";
+      document.getElementsByName("foto3")[i].style.borderLeft = "solid 4px cornflowerblue";
+      document.getElementsByName("foto3")[i].style.borderRight = "solid 4px cornflowerblue";
     }
   }
 }
 
 function inicio() {
-    var inicio = document.getElementById("inicio");
-    inicio.style.backgroundColor = "gray";
-    setTimeout(() => {
-      inicio.style.backgroundColor = "whitesmoke";
-    }, 100)
-    
     window.scroll({
       top: 60,
       left: 0,
@@ -132,24 +182,13 @@ function inicio() {
 
 
 function sobre() {
-  
   if (window.innerWidth >= 1080) {
-    var selecionar = document.getElementById("sobre");
-    selecionar.style.backgroundColor = "gray";
-    setTimeout(() => {
-      selecionar.style.backgroundColor = "whitesmoke";
-    }, 100)
     window.scroll({
       top: 1450,
       left: 0,
       behavior: "smooth",
     })
   }else {
-    var selecionar = document.getElementById("sobre");
-    selecionar.style.backgroundColor = "gray";
-    setTimeout(() => {
-      selecionar.style.backgroundColor = "whitesmoke";
-    }, 100)
     window.scroll({
       top: 1850,
       left: 0,
@@ -160,22 +199,12 @@ function sobre() {
 
 function estudo() {
   if (window.innerWidth >= 1080) {
-    var selecionar = document.getElementById("formacao");
-    selecionar.style.backgroundColor = "gray";
-    setTimeout(() => {
-      selecionar.style.backgroundColor = "whitesmoke";
-    }, 100)
     window.scroll({
       top: 2400,
       left: 0,
       behavior: "smooth",
     })
   }else {
-    var selecionar = document.getElementById("formacao");
-    selecionar.style.backgroundColor = "gray";
-    setTimeout(() => {
-      selecionar.style.backgroundColor = "whitesmoke";
-    }, 100)
     window.scroll({
       top: 3900,
       left: 0,
@@ -186,22 +215,12 @@ function estudo() {
 
 function trabalho() {
   if (window.innerWidth >= 1080) {
-    var selecionar = document.getElementById("xp");
-    selecionar.style.backgroundColor = "gray";
-    setTimeout(() => {
-      selecionar.style.backgroundColor = "whitesmoke";
-    }, 100)
     window.scroll({
       top: 3500,
       left: 0,
       behavior: "smooth",
     })
   }else {
-    var selecionar = document.getElementById("xp");
-    selecionar.style.backgroundColor = "gray";
-    setTimeout(() => {
-      selecionar.style.backgroundColor = "whitesmoke";
-    }, 100)
     window.scroll({
       top: 5900,
       left: 0,
@@ -213,22 +232,12 @@ function trabalho() {
 
 function projetos() {
   if (window.innerWidth >= 1080) {
-    var selecionar = document.getElementById("PROJETOS");
-    selecionar.style.backgroundColor = "gray";
-    setTimeout(() => {
-      selecionar.style.backgroundColor = "whitesmoke";
-    }, 100)
     window.scroll({
       top: 5050,
       left: 0,
       behavior: "smooth",
     })
   }else {
-    var selecionar = document.getElementById("PROJETOS");
-    selecionar.style.backgroundColor = "gray";
-    setTimeout(() => {
-      selecionar.style.backgroundColor = "whitesmoke";
-    }, 100)
     window.scroll({
       top: 8000,
       left: 0,
@@ -253,27 +262,26 @@ function menu2() {
     var tamanho = 1080;
     body2.style.width = '300px';
     body2.style.height = '100px';
-    body2.style.marginTop = '10px';
+    body2.style.marginTop = '50px';
     body2.style.backgroundColor = 'whitesmoke';
   
         
    if (tela <= tamanho) {
-        fechar.style.width = tela/2+"px";
-        fechar.style.height = '100px';
-        fechar.style.textAlign = 'right';
+        fechar.style.width = tela+"px";
+        fechar.style.height = '35px';
+        fechar.style.textAlign = 'justify';
         fechar.style.borderTop = 'solid 2px cornflowerblue';
         fechar.style.borderLeft = 'solid 2px cornflowerblue';
         fechar.style.borderRight = 'solid 2px cornflowerblue';
         fechar.style.borderBottom = 'none';
         fechar.style.backgroundColor = 'whitesmoke';
         fechar.style.animation = 'move2 1s';
-        fechar.style.fontSize = '40px';
+        fechar.style.fontSize = '25px';
         fechar.style.display = 'block';
-        fechar.style.fontWeight = 'bold';
     
     
-        inicio.style.width = tela/2+"px";
-        inicio.style.height = '100px';
+        inicio.style.width = tela+"px";
+        inicio.style.height = '35px';
         inicio.style.borderTop = 'none';
         inicio.style.borderLeft = 'solid 2px cornflowerblue';
         inicio.style.borderRight = 'solid 2px cornflowerblue';
@@ -281,12 +289,11 @@ function menu2() {
         inicio.style.display = 'block';
         inicio.style.backgroundColor = 'whitesmoke';
         inicio.style.animation = 'move2 1s';
-        inicio.style.fontSize = '40px';
-        inicio.style.fontWeight = 'bold';
+        inicio.style.fontSize = '25px';
     
     
-        eu.style.width = tela/2+"px";
-        eu.style.height = '100px';
+        eu.style.width = tela+"px";
+        eu.style.height = '35px';
         eu.style.animation = 'move2 1s';
         eu.style.backgroundColor = 'whitesmoke';
         eu.style.borderTop = 'none';
@@ -294,24 +301,22 @@ function menu2() {
         eu.style.borderRight = 'solid 2px cornflowerblue';
         eu.style.borderBottom = 'none';
         eu.style.display = 'block';
-        eu.style.fontSize = '40px';
-        eu.style.fontWeight = 'bold';
+        eu.style.fontSize = '25px';
     
     
-        formacao.style.width = tela/2+"px";
-        formacao.style.height = '100px';
+        formacao.style.width = tela+"px";
+        formacao.style.height = '35px';
         formacao.style.borderTop = 'none';
         formacao.style.borderLeft = 'solid 2px cornflowerblue';
         formacao.style.borderRight = 'solid 2px cornflowerblue';
         formacao.style.borderBottom = 'none';
         formacao.style.backgroundColor = 'whitesmoke';
         formacao.style.animation = 'move2 1s';
-        formacao.style.fontSize = '40px';
-        formacao.style.fontWeight = 'bold';
+        formacao.style.fontSize = '25px';
         
     
-        xp.style.width = tela/2+"px";
-        xp.style.height = '100px';
+        xp.style.width = tela+"px";
+        xp.style.height = '35px';
         xp.style.borderTop = 'none';
         xp.style.borderLeft = 'solid 2px cornflowerblue';
         xp.style.borderRight = 'solid 2px cornflowerblue';
@@ -319,11 +324,10 @@ function menu2() {
         xp.style.display = 'block';
         xp.style.backgroundColor = 'whitesmoke';
         xp.style.animation = 'move2 1s';
-        xp.style.fontSize = '40px';
-        xp.style.fontWeight = 'bold';
+        xp.style.fontSize = '25px';
   
-        projetos.style.width = tela/2+"px";
-        projetos.style.height = '100px';
+        projetos.style.width = tela+"px";
+        projetos.style.height = '35px';
         projetos.style.borderTop = 'none';
         projetos.style.borderLeft = 'solid 2px cornflowerblue';
         projetos.style.borderRight = 'solid 2px cornflowerblue';
@@ -331,8 +335,7 @@ function menu2() {
         projetos.style.display = 'block';
         projetos.style.backgroundColor = 'whitesmoke';
         projetos.style.animation = 'move2 1s';
-        projetos.style.fontSize = '40px';
-        projetos.style.fontWeight = 'bold';
+        projetos.style.fontSize = '25px';
       }
    else {
         fechar.style.width = tela+"px";
@@ -422,52 +425,40 @@ function fechar() {
     var tamanho = 900;
 
    if (tela <= tamanho) {
-        fechar.style.backgroundColor = "gray";
-        setTimeout(() => {
-          fechar.style.animation = 'move3 1s'
-          inicio.style.animation = 'move3 1s';
-          eu.style.animation = 'move3 1s';
-          formacao.style.animation = 'move3 1s';
-          xp.style.animation = 'move3 1s';
-          projetos.style.animation = 'move3 1s';
-        }, 200);
-
-        setTimeout(() => {
-          fechar.innerText = '';
-          inicio.innerText = '';
-          eu.innerText = '';
-          formacao.innerText = '';
-          xp.innerText = '';
-          projetos.innerText = '';
-          body2.style.width = '';
-          body2.style.height = '';
-          body2.style.marginTop = '';
-          body2.style.backgroundColor = '';
-        }, 400);
-   }
+        fechar.style.animation = 'move3 1s'
+        inicio.style.animation = 'move3 1s';
+        eu.style.animation = 'move3 1s';
+        formacao.style.animation = 'move3 1s';
+        xp.style.animation = 'move3 1s';
+        projetos.style.animation = 'move3 1s';
+        fechar.innerText = '';
+        inicio.innerText = '';
+        eu.innerText = '';
+        formacao.innerText = '';
+        xp.innerText = '';
+        projetos.innerText = ''; 
+        body2.style.width = '';
+        body2.style.height = '';
+        body2.style.marginTop = '';
+        body2.style.backgroundColor = '';      
+      }
    else {
-        fechar.style.backgroundColor = "gray";
-        setTimeout(() => {
-          fechar.style.animation = 'move5 1s'
-          inicio.style.animation = 'move5 1s';
-          eu.style.animation = 'move5 1s';
-          formacao.style.animation = 'move5 1s';
-          xp.style.animation = 'move5 1s';
-          projetos.style.animation = 'move5 1s';
-        }, 200);
-        setTimeout(() => {
-          fechar.innerText = '';
-          inicio.innerText = '';
-          eu.innerText = '';
-          formacao.innerText = '';
-          xp.innerText = '';
-          projetos.innerText = '';
-          body2.style.width = '';
-          body2.style.height = '';
-          body2.style.marginTop = '';
-          body2.style.backgroundColor = '';
-        }, 400);
-    
+        fechar.style.animation = 'move5 1s';
+        inicio.style.animation = 'move5 1s';
+        eu.style.animation = 'move5 1s';
+        formacao.style.animation = 'move5 1s';
+        xp.style.animation = 'move5 1s';
+        projetos.style.animation = 'move5 1s';
+        fechar.innerText = '';
+        inicio.innerText = '';
+        eu.innerText = '';
+        formacao.innerText = '';
+        xp.innerText = '';
+        projetos.innerText = '';  
+        body2.style.width = '';
+        body2.style.height = '';
+        body2.style.marginTop = '';
+        body2.style.backgroundColor = '';   
         }
  
     setTimeout(function() {
