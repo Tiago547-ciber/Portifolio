@@ -402,7 +402,7 @@
       border: none;
     }
   }
-  @media (max-width: 1080px) {
+  @media (max-width: 4120px) {
     .expositor {
       display: flex;
       overflow-x: auto;
