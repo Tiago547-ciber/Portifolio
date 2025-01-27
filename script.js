@@ -34,7 +34,7 @@ function Notas() {
     info.style.justifyContent = "center";
     info.style.alignItems = "center";
     info.style.display = "flex";
-    info.style.border = "solid 2px cornflowerblue";
+    info.style.boxShadow = "0px 5px 5px 5px cornflowerblue";
     info.innerHTML = "Este projeto foi desenvolvido para armazenar lembretes sobre acontecimentos relevantes do dia a dia. Ele permite adicionar textos, datas e fotos, facilitando a organização e o registro de informações importantes. O projeto foi construído utilizando HTML, CSS e JavaScript. CLIQUE NA IMAGEM para ir ate o repositorio.";
   }
 }
@@ -61,7 +61,7 @@ function Zoo() {
     info.style.justifyContent = "center";
     info.style.alignItems = "center";
     info.style.display = "flex";
-    info.style.border = "solid 2px cornflowerblue";
+    info.style.boxShadow = "0px 5px 5px 5px cornflowerblue";
     info.innerHTML = `Após participar do desafio DB , decidi melhorar um pouco o visual da minha solução, na criação de um sistema de separação de animais por tipo e habitat ideal.
                       Utilizei o app Code Studio (grande aliado para quem não tem um pc).
                       Recomendo fortemente, rodar o arquivo html através do app. CLIQUE NA IMAGEM para ir ate o repositorio.`;
@@ -90,7 +90,7 @@ function Ger() {
     info.style.justifyContent = "center";
     info.style.alignItems = "center";
     info.style.display = "flex";
-    info.style.border = "solid 2px cornflowerblue";
+    info.style.boxShadow = "0px 5px 5px 5px cornflowerblue";
     info.innerHTML = `Tive a ideia de criar uma solução depois que minha esposa compartilhou uma dificuldade que estava enfrentando no trabalho.
                       Ela precisava cortar as senhas manualmente todas as noites para distribuí-las no dia seguinte no hospital onde trabalha.
                       Para resolver isso, utilizei React e Vite para desenvolver o projeto.`;
@@ -119,7 +119,7 @@ function Lit() {
     info.style.justifyContent = "center";
     info.style.alignItems = "center";
     info.style.display = "flex";
-    info.style.border = "solid 2px cornflowerblue";
+    info.style.boxShadow = "0px 5px 5px 5px cornflowerblue";
     info.innerHTML = `Este projeto é um dos mais pessoais até agora. Decidi criar um joguinho para que meu filho pudesse interagir.
 No primeiro modo, o jogador deve observar a sequência de animais e clicar somente nos animais que o jogo pede naquele momento.
 No segundo modo, ao clicar nas imagens, um som correspondente ao animal é tocado.
