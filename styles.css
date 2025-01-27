@@ -452,7 +452,7 @@
       width: 900px;
       height: 1300px;
       background-color: whitesmoke;
-      border: solid 2px cornflowerblue;
+      box-shadow: 0px 5px 5px 5px cornflowerblue;
       background-size: 110px;
       position: absolute;
       z-index: 2;
@@ -514,7 +514,7 @@
           margin-top: 2100px;
           margin-left: 5%;
           border-radius: 50px;
-          border: solid 2px cornflowerblue;
+          box-shadow: 0px 5px 5px 5px cornflowerblue;
           border-radius:50px;
           width: 900px;
           height: 1300px;
@@ -545,7 +545,7 @@
           margin-top:480px;
           margin-left: 5%;
           border-radius: 50px;
-          border: solid 2px cornflowerblue;
+          box-shadow: 0px 5px 5px 5px cornflowerblue;
           width: 900px;
           height: 1300px;
           background-color: whitesmoke;
@@ -571,7 +571,7 @@
           color: black;
           margin-top: 2100px;
           border-radius: 50px;
-          border: solid 2px cornflowerblue;
+          box-shadow: 0px 5px 5px 5px cornflowerblue;
           width: 900px;
           height: 1300px;
           background-color: whitesmoke;
@@ -600,7 +600,7 @@
           color: black;
           margin-top: 900px;
           border-radius: 50px;
-          border: solid 2px cornflowerblue;
+          box-shadow: 0px 5px 5px 5px cornflowerblue;
           width: 900px;
           height: 900px;
           background-color: whitesmoke;
