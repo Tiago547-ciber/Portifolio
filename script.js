@@ -26,7 +26,7 @@ function Notas() {
     info.style.height = "300px";
     info.style.position = "fixed";
     info.style.zIndex = "10";
-    info.style.margin = "200px 0px 0px 580px";
+    info.style.margin = "200px 0px 0px 700px";
     info.style.backgroundColor = "white";
     info.style.borderRadius = "20px";
     info.style.textAlign = "justify";
@@ -53,7 +53,7 @@ function Zoo() {
     info.style.height = "300px";
     info.style.position = "fixed";
     info.style.zIndex = "10";
-    info.style.margin = "200px 0px 0px 580px";
+    info.style.margin = "200px 0px 0px 700px";
     info.style.backgroundColor = "white";
     info.style.borderRadius = "20px";
     info.style.textAlign = "justify";
@@ -82,7 +82,7 @@ function Ger() {
     info.style.height = "300px";
     info.style.position = "fixed";
     info.style.zIndex = "10";
-    info.style.margin = "200px 0px 0px 580px";
+    info.style.margin = "200px 0px 0px 700px";
     info.style.backgroundColor = "white";
     info.style.borderRadius = "20px";
     info.style.textAlign = "justify";
@@ -111,7 +111,7 @@ function Lit() {
     info.style.height = "300px";
     info.style.position = "fixed";
     info.style.zIndex = "10";
-    info.style.margin = "200px 0px 0px 580px";
+    info.style.margin = "200px 0px 0px 700px";
     info.style.backgroundColor = "white";
     info.style.borderRadius = "20px";
     info.style.textAlign = "justify";
