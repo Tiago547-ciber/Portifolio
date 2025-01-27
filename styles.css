@@ -41,13 +41,13 @@
 
 #titulo{
   border-radius:50px;
-  margin-left: 15%;
+  margin-left: 25%;
   margin-right: 10%;
   margin-top: 130px;
   width: 900px;
   height: 600px;
   background-color: whitesmoke;
-  border: solid 2px cornflowerblue;
+  box-shadow: 0px 5px 5px 5px cornflowerblue;
   background-size: 110px;
   position: absolute;
   z-index: 2;
@@ -107,9 +107,9 @@
     #eu{
       text-align: justify;
       margin-top: 1100px;
-      margin-left: 15%;
+      margin-left: 25%;
       border-radius: 50px;
-      border: solid 2px cornflowerblue;
+      box-shadow: 0px 5px 5px 5px cornflowerblue;
       border-radius:50px;
       width: 900px;
       height: 700px;
@@ -138,9 +138,9 @@
     #estudo{
       color: black;
       margin-top:480px;
-      margin-left: 15%;
+      margin-left: 25%;
       border-radius: 50px;
-      border: solid 2px cornflowerblue;
+      box-shadow: 0px 5px 5px 5px cornflowerblue;
       width: 900px;
       height: 700px;
       background-color: whitesmoke;
@@ -167,7 +167,7 @@
       font-size: 20px;
       margin-top: 1200px;
       border-radius: 50px;
-      border: solid 2px cornflowerblue;
+      box-shadow: 0px 5px 5px 5px cornflowerblue;
       width: 900px;
       height: 700px;
       background-color: whitesmoke;
@@ -195,7 +195,7 @@
       color: black;
       margin-top: 900px;
       border-radius: 50px;
-      border: solid 2px cornflowerblue;
+      box-shadow: 0px 5px 5px 5px cornflowerblue;
       width: 900px;
       height: 500px;
       background-color: whitesmoke;
