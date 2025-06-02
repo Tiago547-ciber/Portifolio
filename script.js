@@ -127,6 +127,33 @@ Bem, o jogo foi um sucesso! Meu filho adorou, rs.`;
   }
 }
 
+function Rem() {
+  const mensagem = document.createElement("p");
+  mensagem.id = "info";
+  const zoo = document.getElementById("pro4");
+  const body = document.querySelector("body");
+  body.appendChild(mensagem);
+  const info = document.getElementById("info");
+  if (window.innerWidth >= 1080) {
+    zoo.style.border = "solid 2px cornflowerblue";
+    zoo.style.borderTop = "none";
+    info.style.width = "500px";
+    info.style.height = "300px";
+    info.style.position = "fixed";
+    info.style.zIndex = "10";
+    info.style.margin = "200px 0px 0px 700px";
+    info.style.backgroundColor = "white";
+    info.style.borderRadius = "20px";
+    info.style.textAlign = "justify";
+    info.style.fontSize = "20px";
+    info.style.justifyContent = "center";
+    info.style.alignItems = "center";
+    info.style.display = "flex";
+    info.style.boxShadow = "0px 5px 5px 5px cornflowerblue";
+    info.innerHTML = `Um bloco de notas simples com a possibilidade de Alterar o modo entre light ou dark.`;
+  }
+}
+
 function Remover() {
   for (i=0; i<4; i++) {
     document.getElementsByName("foto")[i].style.borderBottom = "0px";
@@ -138,6 +165,9 @@ function Remover() {
     document.getElementsByName("foto3")[i].style.borderBottom = "0px";
     document.getElementsByName("foto3")[i].style.borderLeft = "0px";
     document.getElementsByName("foto3")[i].style.borderRight = "0px";
+    document.getElementsByName("foto4")[i].style.borderBottom = "0px";
+    document.getElementsByName("foto4")[i].style.borderLeft = "0px";
+    document.getElementsByName("foto4")[i].style.borderRight = "0px";    
     document.getElementById("pro").style.borderBottom = "0px";
     document.getElementById("pro").style.borderLeft = "0px";
     document.getElementById("pro").style.borderRight = "0px";
@@ -150,6 +180,9 @@ function Remover() {
     document.getElementById("pro4").style.borderBottom = "0px";
     document.getElementById("pro4").style.borderLeft = "0px";
     document.getElementById("pro4").style.borderRight = "0px";
+    document.getElementById("pro5").style.borderBottom = "0px";
+    document.getElementById("pro5").style.borderLeft = "0px";
+    document.getElementById("pro5").style.borderRight = "0px";    
   }
   
   document.getElementById("info").remove();
@@ -168,6 +201,9 @@ function destacar() {
       document.getElementsByName("foto3")[i].style.borderBottom = "solid 4px cornflowerblue";
       document.getElementsByName("foto3")[i].style.borderLeft = "solid 4px cornflowerblue";
       document.getElementsByName("foto3")[i].style.borderRight = "solid 4px cornflowerblue";
+      document.getElementsByName("foto4")[i].style.borderBottom = "solid 4px cornflowerblue";
+      document.getElementsByName("foto4")[i].style.borderLeft = "solid 4px cornflowerblue";
+      document.getElementsByName("foto4")[i].style.borderRight = "solid 4px cornflowerblue";      
     }
   }
 }
