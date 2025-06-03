@@ -197,7 +197,7 @@
       border-radius: 50px;
       box-shadow: 0px 5px 5px 5px cornflowerblue;
       width: 900px;
-      height: 500px;
+      height: 800px;
       background-color: whitesmoke;
       float: left;
     }
@@ -287,8 +287,8 @@
 
     .Reminder {
       background-image: url(imagens/reminder.png);
-      margin-left: 650px;
-      margin-top: 200px;
+      margin-left: 20px;
+      margin-top: 500px;
       background-position: center;
     }
     #botao {
