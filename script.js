@@ -130,7 +130,7 @@ Bem, o jogo foi um sucesso! Meu filho adorou, rs.`;
 function Rem() {
   const mensagem = document.createElement("p");
   mensagem.id = "info";
-  const zoo = document.getElementById("pro4");
+  const zoo = document.getElementById("pro5");
   const body = document.querySelector("body");
   body.appendChild(mensagem);
   const info = document.getElementById("info");
