@@ -155,7 +155,7 @@ function Rem() {
 }
 
 function Remover() {
-  for (i=0; i<3; i++) {
+  for (i=0; i<4; i++) {
     document.getElementsByName("foto")[i].style.borderBottom = "0px";
     document.getElementsByName("foto")[i].style.borderLeft = "0px";
     document.getElementsByName("foto")[i].style.borderRight = "0px";
@@ -181,7 +181,6 @@ function Remover() {
     document.getElementById("pro5").style.borderLeft = "0px";
     document.getElementById("pro5").style.borderRight = "0px";    
   }
-  
   document.getElementById("info").remove();
 
 }
