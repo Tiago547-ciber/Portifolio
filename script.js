@@ -164,10 +164,7 @@ function Remover() {
     document.getElementsByName("foto2")[i].style.borderRight = "0px";
     document.getElementsByName("foto3")[i].style.borderBottom = "0px";
     document.getElementsByName("foto3")[i].style.borderLeft = "0px";
-    document.getElementsByName("foto3")[i].style.borderRight = "0px";
-    document.getElementsByName("foto4")[i].style.borderBottom = "0px";
-    document.getElementsByName("foto4")[i].style.borderLeft = "0px";
-    document.getElementsByName("foto4")[i].style.borderRight = "0px";    
+    document.getElementsByName("foto3")[i].style.borderRight = "0px";   
     document.getElementById("pro").style.borderBottom = "0px";
     document.getElementById("pro").style.borderLeft = "0px";
     document.getElementById("pro").style.borderRight = "0px";
