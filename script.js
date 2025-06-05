@@ -201,9 +201,7 @@ function destacar() {
       document.getElementsByName("foto3")[i].style.borderBottom = "solid 4px cornflowerblue";
       document.getElementsByName("foto3")[i].style.borderLeft = "solid 4px cornflowerblue";
       document.getElementsByName("foto3")[i].style.borderRight = "solid 4px cornflowerblue";
-      document.getElementsByName("foto4")[i].style.borderBottom = "solid 4px cornflowerblue";
-      document.getElementsByName("foto4")[i].style.borderLeft = "solid 4px cornflowerblue";
-      document.getElementsByName("foto4")[i].style.borderRight = "solid 4px cornflowerblue";      
+      
     }
   }
 }
