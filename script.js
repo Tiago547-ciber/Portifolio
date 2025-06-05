@@ -155,7 +155,7 @@ function Rem() {
 }
 
 function Remover() {
-  for (i=0; i<5; i++) {
+  for (i=0; i<3; i++) {
     document.getElementsByName("foto")[i].style.borderBottom = "0px";
     document.getElementsByName("foto")[i].style.borderLeft = "0px";
     document.getElementsByName("foto")[i].style.borderRight = "0px";
