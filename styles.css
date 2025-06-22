@@ -256,6 +256,16 @@
       z-index: 9;
       background-size: cover;
     }
+
+    #pro6 {
+      background-size: 200px;
+      border-radius: 20px;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      z-index: 9;
+      background-size: cover;
+    }
     
 
     .blocoDeNotas {
@@ -287,6 +297,13 @@
 
     .Reminder {
       background-image: url(imagens/reminder.png);
+      margin-left: 20px;
+      margin-top: 500px;
+      background-position: center;
+    }
+
+    .repoPython {
+      background-image: url(imagens/repoPython.png);
       margin-left: 20px;
       margin-top: 500px;
       background-position: center;
@@ -666,7 +683,26 @@
           z-index: 9;
           background-size: cover;
         }
-    
+
+        #pro5 {
+          background-size: 200px;
+          border-radius: 20px;
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          z-index: 9;
+          background-size: cover;
+        }
+
+        #pro6 {
+          background-size: 200px;
+          border-radius: 20px;
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          z-index: 9;
+          background-size: cover;
+        }
         .blocoDeNotas {
           background-image: url(imagens/Screenshot_20240822-165418~2.png);
           margin-left: 20px;
@@ -687,6 +723,20 @@
         }
         .Little {
           background-image: url(imagens/Screenshot_20250125-221643.png);
+          margin-left: 650px;
+          margin-top: 400px;
+          background-position: center;
+        }
+
+        .Reminder {
+          background-image: url(imagens/reminder.png);
+          margin-left: 650px;
+          margin-top: 400px;
+          background-position: center;
+        }
+
+        .repoPython {
+          background-image: url(imagens/repoPython.png);
           margin-left: 650px;
           margin-top: 400px;
           background-position: center;
