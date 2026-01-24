@@ -266,6 +266,15 @@
       z-index: 9;
       background-size: cover;
     }
+    #pro7 {
+      background-size: 200px;
+      border-radius: 20px;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      z-index: 9;
+      background-size: cover;
+    }
     
 
     .blocoDeNotas {
@@ -303,6 +312,12 @@
     }
 
     .repoPython {
+      background-image: url(imagens/repoPython.png);
+      margin-left: 230px;
+      margin-top: 500px;
+      background-position: center;
+    }
+    .Send {
       background-image: url(imagens/repoPython.png);
       margin-left: 230px;
       margin-top: 500px;
@@ -703,6 +718,15 @@
           z-index: 9;
           background-size: cover;
         }
+        #pro7 {
+          background-size: 200px;
+          border-radius: 20px;
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          z-index: 9;
+          background-size: cover;
+        }    
         .blocoDeNotas {
           background-image: url(imagens/Screenshot_20240822-165418~2.png);
           margin-left: 20px;
@@ -741,6 +765,12 @@
           margin-top: 700px;
           background-position: center;
         }
+       .Send {
+          background-image: url(imagens/repoPython.png);
+          margin-left: 230px;
+          margin-top: 700px;
+          background-position: center;
+            }
         #botao {
           position: absolute;
           z-index: 15;
