@@ -180,7 +180,32 @@ function rep() {
     info.innerHTML = `Repositório contendo as respostas dos exercicios propostos no curso de Python do canal Curso em Video do professor Gustavo Guanabara.`;
   }
 }
-
+function send) {
+  const mensagem = document.createElement("p");
+  mensagem.id = "info";
+  const zoo = document.getElementById("pro7");
+  const body = document.querySelector("body");
+  body.appendChild(mensagem);
+  const info = document.getElementById("info");
+  if (window.innerWidth >= 1080) {
+    zoo.style.border = "solid 2px cornflowerblue";
+    zoo.style.borderTop = "none";
+    info.style.width = "500px";
+    info.style.height = "300px";
+    info.style.position = "fixed";
+    info.style.zIndex = "10";
+    info.style.margin = "200px 0px 0px 700px";
+    info.style.backgroundColor = "white";
+    info.style.borderRadius = "20px";
+    info.style.textAlign = "justify";
+    info.style.fontSize = "20px";
+    info.style.justifyContent = "center";
+    info.style.alignItems = "center";
+    info.style.display = "flex";
+    info.style.boxShadow = "0px 5px 5px 5px cornflowerblue";
+    info.innerHTML = `Projeto front-end de uma landing page de uma empresa de logistica focada em entregas.`;
+  }
+}
 function Remover() {
   for (i=0; i<4; i++) {
     document.getElementsByName("foto")[i].style.borderBottom = "0px";
@@ -210,6 +235,9 @@ function Remover() {
     document.getElementById("pro6").style.borderBottom = "0px";
     document.getElementById("pro6").style.borderLeft = "0px";
     document.getElementById("pro6").style.borderRight = "0px";
+    document.getElementById("pro7").style.borderBottom = "0px";
+    document.getElementById("pro7").style.borderLeft = "0px";
+    document.getElementById("pro7").style.borderRight = "0px";    
   }
   document.getElementById("info").remove();
 
