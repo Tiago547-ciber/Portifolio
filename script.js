@@ -180,7 +180,7 @@ function rep() {
     info.innerHTML = `Repositório contendo as respostas dos exercicios propostos no curso de Python do canal Curso em Video do professor Gustavo Guanabara.`;
   }
 }
-function send) {
+function send() {
   const mensagem = document.createElement("p");
   mensagem.id = "info";
   const zoo = document.getElementById("pro7");
