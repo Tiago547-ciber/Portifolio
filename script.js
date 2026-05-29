@@ -1,4 +1,4 @@
-const larguraCelular = window.matchMedia("(max-width: 768px)");
+const larguraCelular = window.matchMedia("(max-width: 1080px)");
 
 if (larguraCelular.matches) {
     window.location.href = "about.html";
