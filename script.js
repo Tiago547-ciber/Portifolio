@@ -1,4 +1,10 @@
+const larguraCelular = window.matchMedia("(max-width: 768px)");
 
+if (larguraCelular.matches) {
+    window.location.href = "about.html";
+} else {
+    "";
+}
 
 
   const obj2 = document.getElementById("foto");
