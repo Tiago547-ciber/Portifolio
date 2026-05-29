@@ -153,6 +153,15 @@
     
       </footer>
     </div>
-    <script src="./script.js"></script>
+    <script src="./script.js">
+      const larguraCelular = window.matchMedia("(max-width: 768px)");
+
+if (larguraCelular.matches) {
+    window.location.href = "about.html";
+} else {
+    "";
+}
+      
+    </script>
 </body>
 </html>
